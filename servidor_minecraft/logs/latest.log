@@ -567,3 +567,15 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 9:
 [21:40:32] [Server thread/INFO]: qSeren issued server command: /tp TeeRobZti
 [21:40:32] [Server thread/INFO]: [qSeren: Teleported qSeren to TeeRobZti]
 [21:40:40] [Server thread/INFO]: qSeren issued server command: //undo
+[21:45:31] [Server thread/INFO]: qSeren issued server command: //set sponge
+[21:46:12] [Server thread/INFO]: qSeren issued server command: //set air
+[21:46:34] [Server thread/INFO]: qSeren issued server command: //set air
+[21:46:43] [Server thread/INFO]: qSeren issued server command: //set sponge
+[21:46:54] [Server thread/INFO]: qSeren issued server command: //set air
+[21:47:06] [Server thread/INFO]: qSeren issued server command: //set sponge
+[21:48:03] [Server thread/INFO]: qSeren issued server command: //copy
+[21:48:07] [Server thread/INFO]: qSeren issued server command: //rotate 90
+[21:48:11] [Server thread/INFO]: qSeren issued server command: //paste -a
+[21:50:01] [Server thread/INFO]: TeeRobZti has made the advancement [A Terrible Fortress]
+[21:50:06] [Server thread/INFO]: TeeRobZti issued server command: /advancement revoke TeeRobZti only minecraft:nether/find_fortress
+[21:50:06] [Server thread/INFO]: [TeeRobZti: Revoked the advancement [A Terrible Fortress] from TeeRobZti]
