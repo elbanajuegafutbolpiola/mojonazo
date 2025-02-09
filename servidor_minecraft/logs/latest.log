@@ -584,3 +584,10 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 9:
 [21:54:52] [Server thread/INFO]: qSeren issued server command: /difficulty peaceful
 [21:54:52] [Server thread/INFO]: [qSeren: The difficulty has been set to Peaceful]
 [21:55:53] [Server thread/INFO]: qSeren issued server command: //replace netherrack red_nether_bricks
+[22:04:34] [Server thread/INFO]: TeeRobZti has made the advancement [A Terrible Fortress]
+[22:04:40] [Server thread/INFO]: TeeRobZti issued server command: /advancement revoke TeeRobZti only minecraft:nether/find_fortress
+[22:04:40] [Server thread/INFO]: [TeeRobZti: Revoked the advancement [A Terrible Fortress] from TeeRobZti]
+[22:04:53] [Server thread/INFO]: TeeRobZti has made the advancement [A Terrible Fortress]
+[22:10:39] [Async Chat Thread - #19/INFO]: [Not Secure] <qSeren> s
+[22:12:26] [Server thread/INFO]: qSeren issued server command: /setblock ~ ~ ~ minecraft:diamond_block
+[22:12:26] [Server thread/INFO]: [qSeren: Changed the block at 16, 85, 23]
