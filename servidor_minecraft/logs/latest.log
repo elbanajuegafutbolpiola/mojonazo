@@ -188,3 +188,42 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 9:
 [19:22:08] [Server thread/INFO]: qSeren issued server command: //replace water air
 [19:22:09] [Server thread/INFO]: qSeren issued server command: //replace water air
 [19:22:09] [Server thread/INFO]: qSeren issued server command: //replace water air
+[19:23:14] [Server thread/INFO]: TeeRobZti issued server command: //set 0
+[19:23:24] [Server thread/INFO]: TeeRobZti issued server command: //set 0
+[19:24:01] [Server thread/INFO]: TeeRobZti issued server command: //set 0
+[19:24:56] [Server thread/INFO]: qSeren issued server command: //set minecraft:nether_portal
+[19:25:13] [Server thread/INFO]: qSeren issued server command: /effect clear @a
+[19:25:13] [Server thread/INFO]: [qSeren: Removed every effect from 2 targets]
+[19:26:18] [Server thread/INFO]: qSeren has made the advancement [We Need to Go Deeper]
+[19:26:18] [Server thread/INFO]: qSeren has made the advancement [Incendium]
+[19:27:06] [Server thread/INFO]: TeeRobZti has made the advancement [Pipe Dream]
+[19:27:06] [Server thread/INFO]: Named entity Blaze['Pipeline Sentry'/500, uuid='1223c4dd-f130-4153-a2e3-794b8768fadd', l='ServerLevel[world_nether]', x=-19.82, y=33.00, z=-26.50, cpos=[-2, -2], tl=802, v=true] died: Pipeline Sentry suffocated in a wall
+[19:27:16] [Server thread/INFO]: TeeRobZti has made the advancement [A Terrible Fortress]
+[19:27:41] [Server thread/INFO]: TeeRobZti issued server command: /advancement revoke TeeRobZti only minecraft:nether/find_fortress
+[19:27:41] [Server thread/INFO]: [TeeRobZti: Revoked the advancement [A Terrible Fortress] from TeeRobZti]
+[19:27:51] [Server thread/INFO]: qSeren issued server command: //set air
+[19:28:04] [Server thread/INFO]: qSeren has made the advancement [Pipe Dream]
+[19:28:10] [Server thread/INFO]: TeeRobZti has made the advancement [Who is Cutting Onions?]
+[19:28:10] [Server thread/INFO]: TeeRobZti has made the advancement [Hidden in the Depths]
+[19:28:16] [Server thread/INFO]: qSeren issued server command: /kill @e[type=item]
+[19:28:16] [Server thread/INFO]: [qSeren: Killed 43 entities]
+[19:28:47] [Async Chat Thread - #0/INFO]: [Not Secure] <qSeren> who is cutting onions
+[19:28:59] [Server thread/INFO]: qSeren issued server command: //set lava
+[19:29:13] [Server thread/INFO]: qSeren has made the advancement [Hot Stuff]
+[19:29:15] [Server thread/INFO]: TeeRobZti issued server command: /advancement revoke TeeRobZti only minecraft:nether/obtain_ancient_debris
+[19:29:15] [Server thread/INFO]: [TeeRobZti: Revoked the advancement [Hidden in the Depths] from TeeRobZti]
+[19:29:24] [Server thread/INFO]: TeeRobZti issued server command: /advancement revoke TeeRobZti only minecraft:nether/obtain_crying_obsidian
+[19:29:24] [Server thread/INFO]: [TeeRobZti: Revoked the advancement [Who is Cutting Onions?] from TeeRobZti]
+[19:29:52] [Server thread/INFO]: qSeren issued server command: //set air
+[19:29:59] [Server thread/INFO]: qSeren issued server command: //undo
+[19:30:06] [Server thread/INFO]: qSeren issued server command: //set air
+[19:30:37] [Server thread/INFO]: qSeren issued server command: //set air
+[19:30:46] [Async Chat Thread - #1/INFO]: [Not Secure] <TeeRobZti> 7lag
+[19:31:50] [Server thread/INFO]: qSeren issued server command: //set air
+[19:31:57] [Server thread/INFO]: TeeRobZti issued server command: //set 0
+[19:32:07] [Server thread/INFO]: qSeren issued server command: //wand
+[19:32:28] [Server thread/INFO]: qSeren issued server command: //brush
+[19:32:40] [Server thread/INFO]: qSeren issued server command: //brush smooth
+[19:32:44] [Server thread/INFO]: qSeren issued server command: //brush smooth basalt
+[19:32:46] [Server thread/INFO]: TeeRobZti issued server command: //set 0
+[19:32:53] [Server thread/INFO]: qSeren issued server command: //brush smooth air
