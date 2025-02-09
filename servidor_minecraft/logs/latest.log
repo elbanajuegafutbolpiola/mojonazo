@@ -541,3 +541,29 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 9:
 [21:31:07] [Server thread/INFO]: TeeRobZti issued server command: //set 0
 [21:31:22] [Server thread/INFO]: TeeRobZti issued server command: //set 0
 [21:34:01] [Server thread/INFO]: qSeren issued server command: //set sponge
+[21:34:27] [Server thread/INFO]: qSeren issued server command: //set sponge
+[21:34:42] [Server thread/INFO]: qSeren issued server command: //sphere sponge
+[21:34:45] [Server thread/INFO]: qSeren issued server command: //sphere sponge 4
+[21:34:47] [Server thread/INFO]: qSeren issued server command: /spectate
+[21:34:50] [Server thread/INFO]: qSeren issued server command: /gamemode spectator
+[21:34:50] [Server thread/INFO]: [qSeren: Set own game mode to Spectator Mode]
+[21:34:56] [Server thread/INFO]: qSeren issued server command: /gamemode creative
+[21:34:56] [Server thread/INFO]: [qSeren: Set own game mode to Creative Mode]
+[21:35:02] [Server thread/INFO]: qSeren issued server command: //undo
+[21:35:24] [Server thread/INFO]: qSeren issued server command: //set air
+[21:36:12] [Server thread/INFO]: qSeren issued server command: //set air
+[21:36:46] [Server thread/INFO]: qSeren issued server command: //set sponge
+[21:36:55] [Server thread/INFO]: qSeren issued server command: //set sponge
+[21:37:17] [Server thread/INFO]: qSeren issued server command: //set air
+[21:37:49] [Server thread/INFO]: qSeren issued server command: /tp TeeRobZti
+[21:37:49] [Server thread/INFO]: [qSeren: Teleported qSeren to TeeRobZti]
+[21:38:34] [Server thread/INFO]: qSeren issued server command: //cyl sponge 1
+[21:38:39] [Server thread/INFO]: qSeren issued server command: //cyl sponge 5
+[21:38:57] [Server thread/INFO]: qSeren issued server command: //cyl sponge 6
+[21:40:07] [Server thread/INFO]: TeeRobZti has made the advancement [A Terrible Fortress]
+[21:40:27] [Server thread/INFO]: TeeRobZti issued server command: /advancement revoke TeeRobZti only minecraft:nether/find_fortress
+[21:40:27] [Server thread/INFO]: [TeeRobZti: Revoked the advancement [A Terrible Fortress] from TeeRobZti]
+[21:40:29] [Server thread/INFO]: qSeren issued server command: //sphere sponge 6
+[21:40:32] [Server thread/INFO]: qSeren issued server command: /tp TeeRobZti
+[21:40:32] [Server thread/INFO]: [qSeren: Teleported qSeren to TeeRobZti]
+[21:40:40] [Server thread/INFO]: qSeren issued server command: //undo
