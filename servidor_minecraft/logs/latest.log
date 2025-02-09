@@ -1,0 +1,177 @@
+[18:59:53] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[18:59:53] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
+[18:59:53] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[18:59:53] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[18:59:53] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+ - BlockLocker (1.13), FastChunkPregenerator (2.0.9-SNAPSHOT), ImageFrame (1.7.10.0), LoginSecurity (3.3.0), SkinsRestorer (15.5.2), WorldEdit (7.3.9+6959-7adf70b), voicechat (2.5.26)
+[18:59:58] [ServerMain/WARN]: resource-pack-id missing, using default of 24696f4d-dc48-3d38-9515-c73880600e81
+[18:59:58] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:00:03] [ServerMain/INFO]: Loaded 1319 recipes
+[19:00:03] [ServerMain/ERROR]: Failed to load function witherking:abilities/laserbeam/main_tick
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 9: Incorrect argument for command at position 46: ... ..80 run <--[HERE]
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 9: Incorrect argument for command at position 46: ... ..80 run <--[HERE]
+	at net.minecraft.commands.functions.CommandFunction.fromLines(CommandFunction.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:97) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[19:00:04] [ServerMain/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[19:00:04] [ServerMain/INFO]: Loaded 1697 advancements
+[19:00:04] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[19:00:04] [Server thread/INFO]: Loading properties
+[19:00:04] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[19:00:05] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[19:00:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:00:05] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:00:05] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[19:00:06] [Server thread/INFO]: Default game type: SURVIVAL
+[19:00:06] [Server thread/INFO]: Generating keypair
+[19:00:06] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:00:06] [Server thread/INFO]: Using epoll channel type
+[19:00:06] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[19:00:06] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[19:00:06] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.2
+[19:00:06] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v1.7.10.0
+[19:00:06] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.9+6959-7adf70b
+[19:00:08] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@5bda4fe7]
+[19:00:08] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
+[19:00:08] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.26
+[19:00:08] [Server thread/INFO]: [BlockLocker] Loading server plugin BlockLocker v1.13
+[19:00:08] [Server thread/INFO]: [FastChunkPregenerator] Loading server plugin FastChunkPregenerator v2.0.9-SNAPSHOT
+[19:00:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:00:08] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.2
+[19:00:09] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[19:00:10] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[19:00:11] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[19:00:11] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
+[19:00:11] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[19:00:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:00:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[19:00:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[19:00:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[19:00:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[19:00:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[19:00:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:00:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.2
+[19:00:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: ae257f6
+[19:00:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[19:00:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:00:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[19:00:11] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[19:00:11] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[19:00:12] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[19:00:13] [Server thread/INFO]: [BlockLocker] Enabling BlockLocker v1.13
+[19:00:13] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[19:00:21] [Server thread/WARN]: [BlockLocker] Cannot recognize material pale_oak_door, ignoring it
+[19:00:21] [Server thread/WARN]: [BlockLocker] Cannot recognize material pale_oak_fence_gate, ignoring it
+[19:00:21] [Server thread/WARN]: [BlockLocker] Cannot recognize material pale_oak_trapdoor, ignoring it
+[19:00:21] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:00:21] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:00:21] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:00:21] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:00:21] [Server thread/INFO]: Preparing level "world"
+[19:00:22] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:00:23] [Server thread/INFO]: Time elapsed: 1178 ms
+[19:00:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:00:24] [Server thread/INFO]: Time elapsed: 231 ms
+[19:00:24] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:00:24] [Server thread/INFO]: Time elapsed: 194 ms
+[19:00:24] [Server thread/INFO]: Preparing start region for dimension cavernous:the_myst
+[19:00:24] [Server thread/INFO]: Time elapsed: 353 ms
+[19:00:24] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v1.7.10.0
+[19:00:25] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
+[19:00:25] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[19:00:25] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[19:00:25] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[19:00:25] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[19:00:25] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[19:00:25] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[19:00:25] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.26
+[19:00:25] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.21.1-R0.1
+[19:00:25] [Server thread/INFO]: [voicechat] Compatibility version 18
+[19:00:26] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[19:00:26] [Server thread/INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.9-SNAPSHOT
+[19:00:26] [Server thread/INFO]: [FastChunkPregenerator] >> Paper was found.
+[19:00:26] [Server thread/INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
+[19:00:26] [Server thread/INFO]: [spark] Starting background profiler...
+[19:00:26] [Server thread/INFO]: Done preparing level "world" (5.469s)
+[19:00:26] [Server thread/INFO]: Running delayed init tasks
+[19:00:26] [Server thread/INFO]: Done (34.830s)! For help, type "help"
+[19:00:26] [Server thread/INFO]: Timings Reset
+[19:00:27] [Server thread/INFO]: [voicechat] Loading plugins
+[19:00:27] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[19:00:27] [Server thread/INFO]: [voicechat] Initializing plugins
+[19:00:27] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[19:00:27] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[19:00:27] [VoiceChatServerThread/ERROR]: [voicechat] Failed to bind to address '100.82.190.47', binding to wildcard IP instead
+[19:00:27] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 100.82.190.47:24454
+[19:00:27] [Craft Scheduler Thread - 0 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 1 ImageMaps!
+[19:00:31] [User Authenticator #0/INFO]: UUID of player qSeren is 60f425a3-b4ca-31c1-a532-8475c0b676c0
+[19:00:33] [Server thread/INFO]: qSeren joined the game
+[19:00:34] [Server thread/INFO]: qSeren[/100.116.28.5:59485] logged in with entity id 18 at ([world]17.080953146470858, 46.587364534740914, 131.1051852793002)
+[19:00:34] [Server thread/INFO]: [voicechat] Received secret request of qSeren (18)
+[19:00:34] [Server thread/INFO]: [voicechat] Sent secret to qSeren
+[19:00:34] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 60f425a3-b4ca-31c1-a532-8475c0b676c0
+[19:00:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 60f425a3-b4ca-31c1-a532-8475c0b676c0
+[19:00:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player qSeren (60f425a3-b4ca-31c1-a532-8475c0b676c0) successfully connected to voice chat
+[19:01:15] [User Authenticator #0/INFO]: UUID of player TeeRobZti is 375e8eef-1b7d-320f-92ce-8498cff3acd8
+[19:01:16] [Server thread/INFO]: qSeren issued server command: /gamemode creative
+[19:01:16] [Server thread/INFO]: [qSeren: Set own game mode to Creative Mode]
+[19:01:27] [Server thread/INFO]: TeeRobZti joined the game
+[19:01:27] [Server thread/INFO]: TeeRobZti[/100.99.46.3:50712] logged in with entity id 39 at ([world]1897.699999988079, 85.0, -349.30000001192093)
+[19:01:27] [Server thread/INFO]: [voicechat] Received secret request of TeeRobZti (18)
+[19:01:27] [Server thread/INFO]: [voicechat] Sent secret to TeeRobZti
+[19:01:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 375e8eef-1b7d-320f-92ce-8498cff3acd8
+[19:01:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 375e8eef-1b7d-320f-92ce-8498cff3acd8
+[19:01:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player TeeRobZti (375e8eef-1b7d-320f-92ce-8498cff3acd8) successfully connected to voice chat
+[19:01:33] [Server thread/INFO]: qSeren issued server command: /op TeeRobZti
+[19:01:33] [Server thread/INFO]: [qSeren: Made TeeRobZti a server operator]
+[19:01:35] [Server thread/INFO]: qSeren issued server command: /tp TeeRobZti
+[19:01:35] [Server thread/INFO]: [qSeren: Teleported qSeren to TeeRobZti]
+[19:01:48] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
+[19:01:48] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
+[19:02:13] [Server thread/INFO]: qSeren issued server command: /tp 0 90 0
+[19:02:13] [Server thread/INFO]: [qSeren: Teleported qSeren to 0.500000, 90.000000, 0.500000]
+[19:02:16] [Server thread/INFO]: TeeRobZti issued server command: /tp qSeren
+[19:02:16] [Server thread/INFO]: [TeeRobZti: Teleported TeeRobZti to qSeren]
+[19:02:38] [Server thread/INFO]: qSeren issued server command: /kill @e[type=item]
+[19:02:38] [Server thread/INFO]: [qSeren: Killed 2 entities]
+[19:02:51] [Server thread/INFO]: TeeRobZti issued server command: /gamemode spectator
+[19:02:51] [Server thread/INFO]: [TeeRobZti: Set own game mode to Spectator Mode]
+[19:02:57] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
+[19:02:57] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
+[19:03:10] [Server thread/INFO]: TeeRobZti issued server command: /gamemode spectator
+[19:03:10] [Server thread/INFO]: [TeeRobZti: Set own game mode to Spectator Mode]
+[19:03:11] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
+[19:03:11] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
+[19:03:15] [Server thread/INFO]: TeeRobZti issued server command: /gamemode spectator
+[19:03:15] [Server thread/INFO]: [TeeRobZti: Set own game mode to Spectator Mode]
+[19:03:18] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
+[19:03:18] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
+[19:03:19] [Server thread/INFO]: TeeRobZti issued server command: /
+[19:03:22] [Server thread/INFO]: TeeRobZti issued server command: /tp qSeren
+[19:03:22] [Server thread/INFO]: [TeeRobZti: Teleported TeeRobZti to qSeren]
+[19:03:54] [Server thread/INFO]: qSeren issued server command: /gamemode spectator
+[19:03:54] [Server thread/INFO]: [qSeren: Set own game mode to Spectator Mode]
+[19:03:57] [Server thread/INFO]: TeeRobZti issued server command: /tp qSeren
+[19:03:57] [Server thread/INFO]: [TeeRobZti: Teleported TeeRobZti to qSeren]
+[19:03:59] [Server thread/INFO]: qSeren issued server command: /gamemode creative
+[19:03:59] [Server thread/INFO]: [qSeren: Set own game mode to Creative Mode]
+[19:04:00] [Server thread/INFO]: TeeRobZti issued server command: /tp qSeren
+[19:04:00] [Server thread/INFO]: [TeeRobZti: Teleported TeeRobZti to qSeren]
+[19:04:43] [Server thread/INFO]: TeeRobZti issued server command: /tp qs
+[19:04:45] [Server thread/INFO]: TeeRobZti issued server command: /tp qs
+[19:04:49] [Server thread/INFO]: qSeren issued server command: /gamemode spectator
+[19:04:49] [Server thread/INFO]: [qSeren: Set own game mode to Spectator Mode]
+[19:04:59] [Server thread/INFO]: qSeren issued server command: /gamemode creative
+[19:04:59] [Server thread/INFO]: [qSeren: Set own game mode to Creative Mode]
+[19:05:03] [Server thread/INFO]: TeeRobZti issued server command: /tp qSeren
+[19:05:03] [Server thread/INFO]: [TeeRobZti: Teleported TeeRobZti to qSeren]
+[19:05:34] [Server thread/INFO]: qSeren issued server command: /effect give @a minecraft:night_vision infinite
+[19:05:34] [Server thread/INFO]: [qSeren: Applied effect Night Vision to 2 targets]
+[19:05:58] [Server thread/INFO]: qSeren issued server command: //set air
