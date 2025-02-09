@@ -440,3 +440,16 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 9:
 [19:59:21] [Server thread/INFO]: qSeren issued server command: //set nether_portal
 [20:00:04] [Server thread/INFO]: qSeren issued server command: //set nether_brick
 [20:00:05] [Server thread/INFO]: qSeren issued server command: //set nether_bricks
+[20:05:17] [Async Chat Thread - #7/INFO]: [Not Secure] <TeeRobZti> TIO
+[20:05:22] [Async Chat Thread - #7/INFO]: [Not Secure] <TeeRobZti> lobi dice que shado no sera team de ustedes
+[20:05:24] [Async Chat Thread - #7/INFO]: [Not Secure] <TeeRobZti> XDD
+[20:05:34] [Server thread/INFO]: qSeren issued server command: //set blackstone_bricks
+[20:05:36] [Server thread/INFO]: qSeren issued server command: //set blackstone_brick
+[20:05:46] [Server thread/INFO]: qSeren issued server command: //set polished_blackstone_bricks
+[20:07:14] [Async Chat Thread - #9/INFO]: [Not Secure] <TeeRobZti> SEREN MIRA MD
+[20:07:15] [Async Chat Thread - #9/INFO]: [Not Secure] <TeeRobZti> ASDJSDAKJSADJASD
+[20:09:10] [Async Chat Thread - #11/INFO]: [Not Secure] <qSeren> s
+[20:10:06] [Server thread/INFO]: qSeren issued server command: //replace blackstone, polished_blackstone_bricks, cracked_polished_blackstone_bricks blackstone
+[20:10:17] [Server thread/INFO]: qSeren issued server command: //replace blackstone polished_blackstone_bricks cracked_polished_blackstone_bricks blackstone
+[20:10:25] [Server thread/INFO]: qSeren issued server command: //replace blackstone polished_blackstone_bricks
+[20:10:35] [Server thread/INFO]: qSeren issued server command: //replace cracked_polished_blackstone_bricks polished_blackstone_bricks
