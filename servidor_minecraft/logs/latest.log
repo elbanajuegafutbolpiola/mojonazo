@@ -629,3 +629,78 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 9:
 [22:22:00] [Server thread/INFO]: [TeeRobZti: Set own game mode to Survival Mode]
 [22:22:05] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
 [22:22:05] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
+[22:26:04] [Server thread/INFO]: qSeren issued server command: /setblock ~ ~ ~ diamond_block
+[22:26:04] [Server thread/INFO]: [qSeren: Changed the block at 27, 84, 23]
+[22:27:12] [Server thread/INFO]: qSeren issued server command: //replace blackstone,polished_blackstone,polished_blackstone_bricks,cracked_polished_blackstone_bricks sponge
+[22:27:15] [Server thread/INFO]: qSeren issued server command: /tp TeeRobZti
+[22:27:15] [Server thread/INFO]: [qSeren: Teleported qSeren to TeeRobZti]
+[22:28:01] [Server thread/INFO]: qSeren issued server command: //replace sponge 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[22:28:21] [Server thread/INFO]: qSeren lost connection: Disconnected
+[22:28:21] [Server thread/INFO]: [voicechat] Disconnecting client qSeren
+[22:28:21] [Server thread/INFO]: qSeren left the game
+[22:28:25] [User Authenticator #2/INFO]: UUID of player qSeren is 60f425a3-b4ca-31c1-a532-8475c0b676c0
+[22:28:27] [Server thread/INFO]: qSeren joined the game
+[22:28:27] [Server thread/INFO]: qSeren[/100.116.28.5:64512] logged in with entity id 3216 at ([world_nether]-7.641736271106228, 63.82476193842557, -10.40793635047581)
+[22:28:27] [Server thread/INFO]: [voicechat] Received secret request of qSeren (18)
+[22:28:27] [Server thread/INFO]: [voicechat] Sent secret to qSeren
+[22:28:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 60f425a3-b4ca-31c1-a532-8475c0b676c0
+[22:28:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 60f425a3-b4ca-31c1-a532-8475c0b676c0
+[22:28:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player qSeren (60f425a3-b4ca-31c1-a532-8475c0b676c0) successfully connected to voice chat
+[22:28:39] [Server thread/INFO]: TeeRobZti issued server command: /tp qSeren
+[22:28:39] [Server thread/INFO]: [TeeRobZti: Teleported TeeRobZti to qSeren]
+[22:28:41] [Server thread/INFO]: qSeren issued server command: //set nether_portal
+[22:28:53] [Server thread/INFO]: qSeren issued server command: /clear @a
+[22:28:53] [Server thread/INFO]: [qSeren: Removed 479 item(s) from 2 players]
+[22:29:10] [Server thread/INFO]: qSeren issued server command: /tp 1230 63 -713
+[22:29:10] [Server thread/INFO]: [qSeren: Teleported qSeren to 1230.500000, 63.000000, -712.500000]
+[22:29:22] [Server thread/INFO]: qSeren issued server command: /gamemode survival
+[22:29:22] [Server thread/INFO]: [qSeren: Set own game mode to Survival Mode]
+[22:29:26] [Server thread/INFO]: TeeRobZti issued server command: /tp 1887.289 84 -355.033
+[22:29:26] [Server thread/INFO]: [TeeRobZti: Teleported TeeRobZti to 1887.289000, 84.000000, -355.033000]
+[22:29:52] [Server thread/INFO]: qSeren issued server command: /deop TeeRobZti
+[22:29:52] [Server thread/INFO]: [qSeren: Made TeeRobZti no longer a server operator]
+[22:29:58] [Server thread/INFO]: qSeren issued server command: /stop
+[22:29:58] [Server thread/INFO]: [qSeren: Stopping the server]
+[22:29:58] [Server thread/INFO]: Stopping server
+[22:29:58] [Server thread/INFO]: [FastChunkPregenerator] Disabling FastChunkPregenerator v2.0.9-SNAPSHOT
+[22:29:58] [Server thread/INFO]: [BlockLocker] Disabling BlockLocker v1.13
+[22:29:58] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.26
+[22:29:58] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
+[22:29:58] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[22:29:58] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[22:29:58] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.9+6959-7adf70b
+[22:29:58] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:29:58] [Server thread/INFO]: [ImageFrame] Disabling ImageFrame v1.7.10.0
+[22:29:58] [Server thread/INFO]: [ImageFrame] ImageFrame has been Disabled!
+[22:29:58] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.2
+[22:29:58] [Server thread/INFO]: Saving players
+[22:29:58] [Server thread/INFO]: TeeRobZti lost connection: Server closed
+[22:29:58] [Server thread/INFO]: TeeRobZti left the game
+[22:29:58] [Server thread/INFO]: qSeren lost connection: Server closed
+[22:29:58] [Server thread/INFO]: qSeren left the game
+[22:29:58] [Server thread/INFO]: Saving worlds
+[22:29:58] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:29:58] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[22:29:58] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[22:29:58] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[22:30:00] [Server thread/INFO]: [ChunkHolderManager] Saved 821 block chunks, 787 entity chunks, 2 poi chunks in world 'world' in 1.21s
+[22:30:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:30:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[22:30:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[22:30:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[22:30:00] [Server thread/INFO]: [ChunkHolderManager] Saved 399 block chunks, 23 entity chunks, 9 poi chunks in world 'world_nether' in 0.25s
+[22:30:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:30:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[22:30:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[22:30:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[22:30:00] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 6 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[22:30:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_cavernous_the_myst]'/cavernous:the_myst
+[22:30:00] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_cavernous_the_myst'
+[22:30:00] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_cavernous_the_myst'
+[22:30:00] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_cavernous_the_myst'
+[22:30:00] [Server thread/INFO]: [ChunkHolderManager] Saved 705 block chunks, 10 entity chunks, 0 poi chunks in world 'world_cavernous_the_myst' in 0.31s
+[22:30:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:30:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:30:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:30:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (the_myst): All chunks are saved
+[22:30:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
