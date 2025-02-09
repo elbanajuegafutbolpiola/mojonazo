@@ -175,3 +175,16 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 9:
 [19:05:34] [Server thread/INFO]: qSeren issued server command: /effect give @a minecraft:night_vision infinite
 [19:05:34] [Server thread/INFO]: [qSeren: Applied effect Night Vision to 2 targets]
 [19:05:58] [Server thread/INFO]: qSeren issued server command: //set air
+[19:18:19] [Server thread/INFO]: qSeren issued server command: //set minecraft:nether_portal
+[19:18:25] [Server thread/INFO]: TeeRobZti has made the advancement [We Need to Go Deeper]
+[19:18:25] [Server thread/INFO]: TeeRobZti has made the advancement [Incendium]
+[19:18:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3161ms or 63 ticks behind
+[19:18:29] [Server thread/INFO]: qSeren issued server command: /tp TeeRobZti qSeren
+[19:18:29] [Server thread/INFO]: [qSeren: Teleported TeeRobZti to qSeren]
+[19:21:46] [Server thread/INFO]: TeeRobZti issued server command: /
+[19:22:02] [Server thread/INFO]: qSeren issued server command: //replace water air
+[19:22:06] [Server thread/INFO]: qSeren issued server command: //replace water air
+[19:22:07] [Server thread/INFO]: qSeren issued server command: //replace water air
+[19:22:08] [Server thread/INFO]: qSeren issued server command: //replace water air
+[19:22:09] [Server thread/INFO]: qSeren issued server command: //replace water air
+[19:22:09] [Server thread/INFO]: qSeren issued server command: //replace water air
