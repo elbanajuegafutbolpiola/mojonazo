@@ -471,3 +471,21 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 9:
 [20:46:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 60f425a3-b4ca-31c1-a532-8475c0b676c0
 [20:46:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 60f425a3-b4ca-31c1-a532-8475c0b676c0
 [20:46:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player qSeren (60f425a3-b4ca-31c1-a532-8475c0b676c0) successfully connected to voice chat
+[21:00:52] [Server thread/INFO]: qSeren issued server command: /kill @e[type=minecraft:magma_cube ]
+[21:00:52] [Server thread/INFO]: [qSeren: Killed 27 entities]
+[21:00:53] [Server thread/INFO]: qSeren issued server command: /kill @e[type=minecraft:magma_cube ]
+[21:00:53] [Server thread/INFO]: [qSeren: Killed 2 entities]
+[21:00:53] [Server thread/INFO]: qSeren issued server command: /kill @e[type=minecraft:magma_cube ]
+[21:00:53] [Server thread/INFO]: [qSeren: Killed 62 entities]
+[21:00:54] [Server thread/INFO]: qSeren issued server command: /kill @e[type=minecraft:magma_cube ]
+[21:00:54] [Server thread/INFO]: [qSeren: Killed 5 entities]
+[21:00:55] [Server thread/INFO]: qSeren issued server command: /kill @e[type=minecraft:magma_cube ]
+[21:00:55] [Server thread/INFO]: [qSeren: Killed 114 entities]
+[21:00:57] [Server thread/INFO]: qSeren issued server command: /kill @e[type=minecraft:magma_cube ]
+[21:00:57] [Server thread/INFO]: [qSeren: Killed 6 entities]
+[21:02:52] [Server thread/INFO]: qSeren issued server command: //copy
+[21:03:26] [Server thread/INFO]: qSeren issued server command: //paste
+[21:03:38] [Server thread/INFO]: qSeren issued server command: /undo
+[21:03:41] [Server thread/INFO]: qSeren issued server command: //paste
+[21:03:56] [Server thread/INFO]: qSeren issued server command: /undo
+[21:03:56] [Server thread/INFO]: qSeren issued server command: //paste
