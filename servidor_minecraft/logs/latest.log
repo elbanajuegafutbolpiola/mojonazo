@@ -525,3 +525,19 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 9:
 [21:19:44] [Server thread/INFO]: [TeeRobZti: Set own game mode to Survival Mode]
 [21:19:46] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
 [21:19:46] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
+[21:25:00] [Server thread/INFO]: qSeren issued server command: //set sponge
+[21:25:05] [Server thread/INFO]: qSeren issued server command: //set sponge
+[21:26:38] [Server thread/INFO]: qSeren issued server command: //replace sponge 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[21:26:53] [Server thread/INFO]: qSeren issued server command: //undo
+[21:28:15] [Server thread/INFO]: qSeren issued server command: //replace sponge 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[21:28:19] [Server thread/INFO]: qSeren issued server command: //undo
+[21:28:55] [Server thread/INFO]: TeeRobZti issued server command: /brush erode
+[21:28:59] [Server thread/INFO]: TeeRobZti issued server command: /brush dilate
+[21:29:04] [Server thread/INFO]: qSeren issued server command: //set sponge
+[21:29:13] [Server thread/INFO]: TeeRobZti issued server command: /brush dilate
+[21:29:27] [Server thread/INFO]: TeeRobZti issued server command: /brush erode
+[21:29:33] [Server thread/INFO]: TeeRobZti issued server command: /brush dilate
+[21:30:10] [Server thread/INFO]: qSeren issued server command: /loot give @a loot stellarity:items/trinkets/endermans_hand
+[21:31:07] [Server thread/INFO]: TeeRobZti issued server command: //set 0
+[21:31:22] [Server thread/INFO]: TeeRobZti issued server command: //set 0
+[21:34:01] [Server thread/INFO]: qSeren issued server command: //set sponge
