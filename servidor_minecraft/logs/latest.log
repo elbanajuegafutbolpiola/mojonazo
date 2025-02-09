@@ -489,3 +489,22 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 9:
 [21:03:41] [Server thread/INFO]: qSeren issued server command: //paste
 [21:03:56] [Server thread/INFO]: qSeren issued server command: /undo
 [21:03:56] [Server thread/INFO]: qSeren issued server command: //paste
+[21:06:22] [Server thread/INFO]: qSeren issued server command: /kill @e[type=blaze]
+[21:06:22] [Server thread/INFO]: Named entity Blaze['Pipeline Sentry'/483, uuid='3412f408-3cb8-491b-9f70-9fe4554ea611', l='ServerLevel[world_nether]', x=4.17, y=23.00, z=11.21, cpos=[0, 0], tl=120001, v=true] died: Pipeline Sentry was killed
+[21:06:22] [Server thread/INFO]: Named entity Blaze['Pipeline Sentry'/502, uuid='de96ed97-de40-487e-9c81-d191a2a01e8d', l='ServerLevel[world_nether]', x=-20.10, y=21.00, z=-9.91, cpos=[-2, -1], tl=119780, v=true] died: Pipeline Sentry was killed
+[21:06:22] [Server thread/INFO]: Named entity Blaze['Pipeline Sentry'/482, uuid='244238f5-99b5-4b79-b767-65eb2ca71b46', l='ServerLevel[world_nether]', x=-20.38, y=21.00, z=-11.14, cpos=[-2, -1], tl=120001, v=true] died: Pipeline Sentry was killed
+[21:06:22] [Server thread/INFO]: Named entity Blaze['Prime Pipeline Sentry'/485, uuid='b7fa483e-8ef4-4e66-bbde-421d826f1149', l='ServerLevel[world_nether]', x=5.21, y=23.00, z=-6.16, cpos=[0, -1], tl=120001, v=true] died: Prime Pipeline Sentry was killed
+[21:06:22] [Server thread/INFO]: Named entity Blaze['Pipeline Sentry'/493, uuid='8ad3348e-77e0-4d6b-b1d0-60c39a1a5469', l='ServerLevel[world_nether]', x=-32.40, y=23.00, z=22.50, cpos=[-3, 1], tl=119989, v=true] died: Pipeline Sentry was killed
+[21:06:22] [Server thread/INFO]: Named entity Blaze['Prime Pipeline Sentry'/484, uuid='a6214904-35a8-4be0-93a6-0e97eac6e403', l='ServerLevel[world_nether]', x=-20.04, y=21.00, z=-8.90, cpos=[-2, -1], tl=120001, v=true] died: Prime Pipeline Sentry was killed
+[21:06:22] [Server thread/INFO]: Named entity Blaze['Pipeline Sentry'/490, uuid='336bdbb2-c048-477c-9758-5b273cdb5ce9', l='ServerLevel[world_nether]', x=-20.70, y=20.00, z=-9.53, cpos=[-2, -1], tl=119919, v=true] died: Pipeline Sentry was killed
+[21:06:22] [Server thread/INFO]: Named entity Blaze['Pipeline Sentry'/473, uuid='ce1ce247-3e5c-4da5-8063-23d243cd68a9', l='ServerLevel[world_nether]', x=19.70, y=1.02, z=-26.50, cpos=[1, -2], tl=118561, v=true] died: Pipeline Sentry was killed
+[21:06:22] [Server thread/INFO]: Named entity Blaze['Pipeline Sentry'/497, uuid='f6316721-6e49-4205-8583-066791a6666a', l='ServerLevel[world_nether]', x=20.78, y=1.00, z=-25.70, cpos=[1, -2], tl=117456, v=true] died: Pipeline Sentry was killed
+[21:06:22] [Server thread/INFO]: [qSeren: Killed 9 entities]
+[21:06:41] [Server thread/INFO]: qSeren issued server command: //copy
+[21:06:58] [Server thread/INFO]: qSeren issued server command: //paste
+[21:08:41] [Server thread/INFO]: qSeren has reached the goal [Eye of Darkness]
+[21:09:37] [Server thread/INFO]: qSeren issued server command: //set blackstone
+[21:09:55] [Server thread/INFO]: qSeren issued server command: //undo
+[21:10:15] [Server thread/INFO]: qSeren issued server command: //set blackstone
+[21:10:50] [Server thread/INFO]: qSeren issued server command: //replace blackstone 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[21:12:01] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
