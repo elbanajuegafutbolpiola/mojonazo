@@ -508,3 +508,20 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 9:
 [21:10:15] [Server thread/INFO]: qSeren issued server command: //set blackstone
 [21:10:50] [Server thread/INFO]: qSeren issued server command: //replace blackstone 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
 [21:12:01] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[21:16:18] [Server thread/INFO]: qSeren issued server command: //replace sponge
+[21:18:35] [User Authenticator #1/INFO]: UUID of player TeeRobZti is 375e8eef-1b7d-320f-92ce-8498cff3acd8
+[21:18:41] [Server thread/INFO]: TeeRobZti joined the game
+[21:18:41] [Server thread/INFO]: TeeRobZti[/100.99.46.3:51751] logged in with entity id 2912 at ([world_nether]1.536072297835499, 42.24931161598344, -16.911991696543758)
+[21:18:42] [Server thread/INFO]: [voicechat] Received secret request of TeeRobZti (18)
+[21:18:42] [Server thread/INFO]: [voicechat] Sent secret to TeeRobZti
+[21:18:42] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 375e8eef-1b7d-320f-92ce-8498cff3acd8
+[21:18:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 375e8eef-1b7d-320f-92ce-8498cff3acd8
+[21:18:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player TeeRobZti (375e8eef-1b7d-320f-92ce-8498cff3acd8) successfully connected to voice chat
+[21:18:45] [Server thread/INFO]: qSeren issued server command: //set sponge
+[21:19:24] [Server thread/INFO]: qSeren issued server command: //set sponge
+[21:19:43] [Server thread/INFO]: TeeRobZti issued server command: /gamemode spectator
+[21:19:43] [Server thread/INFO]: [TeeRobZti: Set own game mode to Spectator Mode]
+[21:19:44] [Server thread/INFO]: TeeRobZti issued server command: /gamemode survival
+[21:19:44] [Server thread/INFO]: [TeeRobZti: Set own game mode to Survival Mode]
+[21:19:46] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
+[21:19:46] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]

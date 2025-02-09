@@ -2331,79 +2331,85 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-02-09 21:10:30 +0000"
+      "log_spam_fixer": "2025-02-09 21:20:30 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-02-09 21:10:30 +0000"
+      "log_spam_fixer": "2025-02-09 21:20:30 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-02-09 21:10:30 +0000"
+      "log_spam_fixer": "2025-02-09 21:20:30 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-02-09 21:10:30 +0000"
+      "log_spam_fixer": "2025-02-09 21:20:30 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-02-09 21:10:30 +0000"
+      "log_spam_fixer": "2025-02-09 21:20:30 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-02-09 21:10:30 +0000"
+      "log_spam_fixer": "2025-02-09 21:20:30 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-02-09 21:10:30 +0000"
+      "log_spam_fixer": "2025-02-09 21:20:30 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-02-09 21:10:30 +0000"
+      "log_spam_fixer": "2025-02-09 21:20:30 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-02-09 21:10:30 +0000"
+      "log_spam_fixer": "2025-02-09 21:20:30 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-02-09 21:10:30 +0000"
+      "log_spam_fixer": "2025-02-09 21:20:30 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-02-09 21:10:30 +0000"
+      "log_spam_fixer": "2025-02-09 21:20:30 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-02-09 21:10:30 +0000"
+      "log_spam_fixer": "2025-02-09 21:20:30 +0000"
     },
     "done": false
   },
   "minecraft:recipes/building_blocks/polished_blackstone_brick_slab": {
     "criteria": {
       "has_polished_blackstone_bricks": "2025-02-09 19:06:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2025-02-09 21:10:52 +0000"
     },
     "done": true
   },
@@ -2424,6 +2430,12 @@
       "minecraft:basalt_deltas": "2025-02-09 19:26:18 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2025-02-09 21:16:02 +0000"
+    },
+    "done": true
   },
   "incendium:root": {
     "criteria": {
@@ -2644,6 +2656,12 @@
   "minecraft:nether/root": {
     "criteria": {
       "entered_nether": "2025-02-09 19:26:18 +0000"
+    },
+    "done": true
+  },
+  "geyser:geyser_block": {
+    "criteria": {
+      "unlocked": "2025-02-09 21:10:52 +0000"
     },
     "done": true
   },
