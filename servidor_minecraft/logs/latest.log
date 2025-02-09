@@ -227,3 +227,93 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 9:
 [19:32:44] [Server thread/INFO]: qSeren issued server command: //brush smooth basalt
 [19:32:46] [Server thread/INFO]: TeeRobZti issued server command: //set 0
 [19:32:53] [Server thread/INFO]: qSeren issued server command: //brush smooth air
+[19:33:08] [Server thread/INFO]: TeeRobZti issued server command: //set 0
+[19:33:08] [Server thread/INFO]: qSeren issued server command: //brush smooth basalt
+[19:33:43] [Server thread/INFO]: TeeRobZti issued server command: //set 0
+[19:34:21] [Server thread/INFO]: qSeren issued server command: /fill lava
+[19:34:24] [Server thread/INFO]: qSeren issued server command: //set lava
+[19:34:35] [Server thread/INFO]: TeeRobZti issued server command: //wand
+[19:34:46] [Server thread/INFO]: TeeRobZti issued server command: /brush
+[19:34:50] [Server thread/INFO]: TeeRobZti issued server command: /brush
+[19:34:51] [Server thread/INFO]: TeeRobZti issued server command: /brush
+[19:34:53] [Server thread/INFO]: qSeren issued server command: //brush smooth basalt, blackstone
+[19:34:58] [Server thread/INFO]: qSeren issued server command: //brush smooth basalt blackstone
+[19:35:11] [Server thread/INFO]: qSeren issued server command: //brush smooth blackstone
+[19:35:28] [Server thread/INFO]: qSeren issued server command: //brush smooth basalt
+[19:35:37] [Server thread/INFO]: qSeren issued server command: //brush smooth basalt
+[19:35:48] [Server thread/INFO]: TeeRobZti issued server command: //wand brush
+[19:36:07] [Server thread/INFO]: TeeRobZti issued server command: /brush
+[19:36:15] [Server thread/INFO]: TeeRobZti issued server command: /brush smooth
+[19:36:26] [Server thread/INFO]: qSeren issued server command: //brush deform sphere
+[19:36:34] [Server thread/INFO]: qSeren issued server command: //undo
+[19:36:35] [Server thread/INFO]: qSeren issued server command: //undo
+[19:36:35] [Server thread/INFO]: qSeren issued server command: //undo
+[19:36:35] [Server thread/INFO]: qSeren issued server command: //undo
+[19:36:36] [Server thread/INFO]: qSeren issued server command: //undo
+[19:36:37] [Server thread/INFO]: qSeren issued server command: //undo
+[19:36:37] [Server thread/INFO]: qSeren issued server command: //undo
+[19:36:37] [Server thread/INFO]: qSeren issued server command: //undo
+[19:36:38] [Server thread/INFO]: qSeren issued server command: //undo
+[19:36:38] [Server thread/INFO]: qSeren issued server command: //undo
+[19:36:38] [Server thread/INFO]: qSeren issued server command: //undo
+[19:36:41] [Server thread/INFO]: qSeren issued server command: //undo
+[19:36:53] [Server thread/INFO]: qSeren issued server command: //brush extinguish
+[19:37:30] [Server thread/INFO]: TeeRobZti issued server command: /tp qs
+[19:37:47] [Server thread/INFO]: qSeren issued server command: //brush butcher
+[19:38:09] [Server thread/INFO]: qSeren issued server command: //brush splatter
+[19:38:14] [Server thread/INFO]: qSeren issued server command: //brush splatter basalt 3
+[19:38:22] [Server thread/INFO]: qSeren issued server command: //undo
+[19:38:22] [Server thread/INFO]: qSeren issued server command: //undo
+[19:38:23] [Server thread/INFO]: qSeren issued server command: //undo
+[19:38:23] [Server thread/INFO]: qSeren issued server command: //undo
+[19:38:23] [Server thread/INFO]: qSeren issued server command: //undo
+[19:38:23] [Server thread/INFO]: qSeren issued server command: //undo
+[19:38:24] [Server thread/INFO]: qSeren issued server command: //undo
+[19:38:24] [Server thread/INFO]: qSeren issued server command: //undo
+[19:38:24] [Server thread/INFO]: qSeren issued server command: //undo
+[19:38:24] [Server thread/INFO]: qSeren issued server command: //undo
+[19:38:29] [Server thread/INFO]: qSeren issued server command: //brush smooth basalt
+[19:38:41] [Server thread/INFO]: TeeRobZti issued server command: /tp qSeren
+[19:38:41] [Server thread/INFO]: [TeeRobZti: Teleported TeeRobZti to qSeren]
+[19:38:42] [Server thread/INFO]: qSeren issued server command: //brush smooth netherrack
+[19:39:58] [Server thread/INFO]: qSeren issued server command: //replace lava air
+[19:40:08] [Server thread/INFO]: TeeRobZti issued server command: //set 0
+[19:40:16] [Server thread/INFO]: qSeren issued server command: //replace lava air
+[19:40:45] [Server thread/INFO]: qSeren issued server command: /brush erode
+[19:40:58] [Server thread/INFO]: TeeRobZti issued server command: //set 0
+[19:41:07] [Server thread/INFO]: TeeRobZti has made the advancement [Into Fire]
+[19:41:20] [Server thread/INFO]: TeeRobZti issued server command: /brush erode
+[19:41:33] [Server thread/INFO]: qSeren issued server command: /brush raise
+[19:41:35] [Server thread/INFO]: TeeRobZti issued server command: /advancement revoke TeeRobZti only minecraft:nether/obtain_blaze_rod
+[19:41:35] [Server thread/INFO]: [TeeRobZti: Revoked the advancement [Into Fire] from TeeRobZti]
+[19:41:37] [Server thread/INFO]: qSeren issued server command: /brush raise sphere 3
+[19:41:50] [Server thread/INFO]: qSeren issued server command: //undo
+[19:41:51] [Server thread/INFO]: qSeren issued server command: //undo
+[19:41:51] [Server thread/INFO]: qSeren issued server command: //undo
+[19:41:52] [Server thread/INFO]: qSeren issued server command: //undo
+[19:41:52] [Server thread/INFO]: qSeren issued server command: //undo
+[19:41:53] [Server thread/INFO]: qSeren issued server command: //undo
+[19:41:56] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[19:41:58] [Server thread/INFO]: qSeren issued server command: /redo
+[19:41:58] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[19:41:59] [Server thread/INFO]: qSeren issued server command: /redo
+[19:41:59] [Server thread/INFO]: qSeren issued server command: /redo
+[19:41:59] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[19:42:00] [Server thread/INFO]: qSeren issued server command: /redo
+[19:42:00] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[19:42:00] [Server thread/INFO]: qSeren issued server command: /redo
+[19:42:01] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[19:42:01] [Server thread/INFO]: qSeren issued server command: /redo
+[19:42:01] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[19:42:02] [Server thread/INFO]: qSeren issued server command: /redo
+[19:42:02] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[19:42:02] [Server thread/INFO]: qSeren issued server command: /redo
+[19:42:03] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[19:42:04] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[19:42:05] [Server thread/INFO]: TeeRobZti issued server command: /
+[19:42:09] [Server thread/INFO]: TeeRobZti issued server command: /tp qSeren
+[19:42:09] [Server thread/INFO]: [TeeRobZti: Teleported TeeRobZti to qSeren]
+[19:42:45] [Server thread/INFO]: qSeren issued server command: /brush raise sphere 5
+[19:43:01] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 60f425a3-b4ca-31c1-a532-8475c0b676c0 timed out
+[19:43:01] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player qSeren
+[19:43:01] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to qSeren
