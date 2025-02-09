@@ -465,3 +465,9 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 9:
 [20:35:25] [Server thread/INFO]: TeeRobZti lost connection: Disconnected
 [20:35:25] [Server thread/INFO]: [voicechat] Disconnecting client TeeRobZti
 [20:35:25] [Server thread/INFO]: TeeRobZti left the game
+[20:46:22] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 60f425a3-b4ca-31c1-a532-8475c0b676c0 timed out
+[20:46:22] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player qSeren
+[20:46:22] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to qSeren
+[20:46:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 60f425a3-b4ca-31c1-a532-8475c0b676c0
+[20:46:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 60f425a3-b4ca-31c1-a532-8475c0b676c0
+[20:46:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player qSeren (60f425a3-b4ca-31c1-a532-8475c0b676c0) successfully connected to voice chat
