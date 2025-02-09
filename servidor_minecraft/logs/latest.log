@@ -453,3 +453,5 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 9:
 [20:10:17] [Server thread/INFO]: qSeren issued server command: //replace blackstone polished_blackstone_bricks cracked_polished_blackstone_bricks blackstone
 [20:10:25] [Server thread/INFO]: qSeren issued server command: //replace blackstone polished_blackstone_bricks
 [20:10:35] [Server thread/INFO]: qSeren issued server command: //replace cracked_polished_blackstone_bricks polished_blackstone_bricks
+[20:13:50] [Server thread/INFO]: qSeren issued server command: //replace polished_blackstone_bricks 25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks,25%polished_blackstone,25%blackstone
+[20:14:30] [Async Chat Thread - #13/INFO]: [Not Secure] <qSeren> .//replace (bloque) 25%blackstone,25%polished_blackstone_bricks
