@@ -459,3 +459,9 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 9:
 [20:29:44] [Async Chat Thread - #17/INFO]: [Not Secure] <TeeRobZti> hola
 [20:32:41] [Server thread/INFO]: TeeRobZti issued server command: /tp qSeren TeeRobZti
 [20:32:41] [Server thread/INFO]: [TeeRobZti: Teleported qSeren to TeeRobZti]
+[20:33:43] [Server thread/INFO]: TeeRobZti issued server command: //set cobblestone
+[20:33:55] [Server thread/INFO]: TeeRobZti issued server command: /
+[20:35:04] [Server thread/INFO]: TeeRobZti issued server command: //replace cobblestone 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks
+[20:35:25] [Server thread/INFO]: TeeRobZti lost connection: Disconnected
+[20:35:25] [Server thread/INFO]: [voicechat] Disconnecting client TeeRobZti
+[20:35:25] [Server thread/INFO]: TeeRobZti left the game
