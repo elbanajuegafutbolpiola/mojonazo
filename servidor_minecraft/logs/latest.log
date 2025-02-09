@@ -591,3 +591,41 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 9:
 [22:10:39] [Async Chat Thread - #19/INFO]: [Not Secure] <qSeren> s
 [22:12:26] [Server thread/INFO]: qSeren issued server command: /setblock ~ ~ ~ minecraft:diamond_block
 [22:12:26] [Server thread/INFO]: [qSeren: Changed the block at 16, 85, 23]
+[22:14:47] [Server thread/INFO]: qSeren issued server command: //replace sponge 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[22:16:14] [Server thread/INFO]: qSeren issued server command: /summon ghast
+[22:16:14] [Server thread/INFO]: [qSeren: Summoned new Ghast]
+[22:16:23] [Server thread/INFO]: qSeren issued server command: /difficulty hard
+[22:16:23] [Server thread/INFO]: [qSeren: The difficulty has been set to Hard]
+[22:16:26] [Server thread/INFO]: qSeren issued server command: /summon ghast
+[22:16:26] [Server thread/INFO]: [qSeren: Summoned new Ghast]
+[22:16:57] [Server thread/INFO]: qSeren issued server command: /summon minecraft:skeleton
+[22:16:57] [Server thread/INFO]: [qSeren: Summoned new Skeleton]
+[22:17:06] [Server thread/INFO]: TeeRobZti issued server command: /gamemode survival
+[22:17:06] [Server thread/INFO]: [TeeRobZti: Set own game mode to Survival Mode]
+[22:17:20] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
+[22:17:20] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
+[22:17:33] [Server thread/INFO]: qSeren issued server command: /summon minecraft:skeleton
+[22:17:33] [Server thread/INFO]: [qSeren: Summoned new Skeleton]
+[22:17:34] [Server thread/INFO]: TeeRobZti issued server command: /gamemode survival
+[22:17:34] [Server thread/INFO]: [TeeRobZti: Set own game mode to Survival Mode]
+[22:17:58] [Server thread/INFO]: qSeren issued server command: /summon minecraft:skeleton
+[22:17:58] [Server thread/INFO]: [qSeren: Summoned new Skeleton]
+[22:18:17] [Server thread/INFO]: qSeren issued server command: /summon minecraft:skeleton
+[22:18:17] [Server thread/INFO]: [qSeren: Summoned new Skeleton]
+[22:18:50] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
+[22:18:50] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
+[22:19:00] [Server thread/INFO]: qSeren issued server command: /gamemode spectator
+[22:19:00] [Server thread/INFO]: [qSeren: Set own game mode to Spectator Mode]
+[22:19:10] [Server thread/INFO]: qSeren issued server command: /gamemode creative
+[22:19:10] [Server thread/INFO]: [qSeren: Set own game mode to Creative Mode]
+[22:19:28] [Server thread/INFO]: qSeren issued server command: //copy
+[22:19:42] [Server thread/INFO]: qSeren issued server command: //paste
+[22:19:49] [Server thread/INFO]: qSeren issued server command: //undo
+[22:20:10] [Server thread/INFO]: qSeren issued server command: //copy
+[22:20:21] [Server thread/INFO]: qSeren issued server command: //paste
+[22:21:24] [Server thread/INFO]: qSeren issued server command: /summon minecraft:skeleton
+[22:21:24] [Server thread/INFO]: [qSeren: Summoned new Skeleton]
+[22:22:00] [Server thread/INFO]: TeeRobZti issued server command: /gamemode survival
+[22:22:00] [Server thread/INFO]: [TeeRobZti: Set own game mode to Survival Mode]
+[22:22:05] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
+[22:22:05] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
