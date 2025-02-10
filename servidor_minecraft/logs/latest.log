@@ -298,3 +298,20 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 9:
 [15:52:34] [Server thread/INFO]: qSeren issued server command: //set sponge
 [15:53:47] [Server thread/INFO]: qSeren issued server command: //set sponge
 [15:53:53] [Server thread/INFO]: qSeren issued server command: //set air
+[15:54:01] [Server thread/INFO]: qSeren issued server command: //set air
+[15:54:03] [Server thread/INFO]: qSeren issued server command: //set sponge
+[15:54:59] [Server thread/INFO]: qSeren issued server command: //set sponge
+[15:55:20] [Server thread/INFO]: qSeren issued server command: //set sponge
+[15:56:29] [Server thread/INFO]: qSeren issued server command: //replace sponge 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[15:56:34] [Server thread/INFO]: qSeren issued server command: /tp TeeRobZti
+[15:56:34] [Server thread/INFO]: [qSeren: Teleported qSeren to TeeRobZti]
+[15:58:14] [Server thread/INFO]: TeeRobZti has made the advancement [Hidden in the Depths]
+[15:58:19] [Server thread/INFO]: qSeren issued server command: /gamemode survival
+[15:58:19] [Server thread/INFO]: [qSeren: Set own game mode to Survival Mode]
+[15:58:19] [Server thread/INFO]: TeeRobZti issued server command: /gamemode survival
+[15:58:19] [Server thread/INFO]: [TeeRobZti: Set own game mode to Survival Mode]
+[15:58:30] [Server thread/INFO]: qSeren issued server command: /gamemode creative
+[15:58:30] [Server thread/INFO]: [qSeren: Set own game mode to Creative Mode]
+[15:58:33] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
+[15:58:33] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
+[16:02:37] [Server thread/INFO]: TeeRobZti has made the advancement [Cloud Save]
