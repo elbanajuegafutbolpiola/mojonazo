@@ -388,3 +388,14 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 9:
 [16:23:49] [Server thread/INFO]: [TeeRobZti: Set own game mode to Survival Mode]
 [16:23:50] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
 [16:23:50] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
+[16:24:32] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[16:24:42] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[16:26:09] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[16:26:22] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[16:26:33] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[16:26:40] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[16:27:03] [Server thread/INFO]: qSeren lost connection: Disconnected
+[16:27:03] [Server thread/INFO]: [voicechat] Disconnecting client qSeren
+[16:27:03] [Server thread/INFO]: qSeren left the game
+[16:29:40] [Server thread/INFO]: TeeRobZti issued server command: //wand
+[16:30:00] [Server thread/INFO]: TeeRobZti issued server command: //set sponge
