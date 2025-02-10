@@ -1,15 +1,13 @@
-[13:07:11] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[13:07:11] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
-[13:07:12] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[13:07:12] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/worldedit-bukkit-7.3.9.jar'...
-[13:07:15] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/worldedit-bukkit-7.3.9.jar' in 3324ms.
-[13:07:15] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
-[13:07:15] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
+[14:43:16] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-Ubuntu-120.04.1; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[14:43:16] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
+[14:43:16] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[14:43:17] [ServerMain/INFO]: [PluginInitializerManager] Initialized 7 plugins
+[14:43:17] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (7):
  - BlockLocker (1.13), FastChunkPregenerator (2.0.9-SNAPSHOT), ImageFrame (1.7.10.0), LoginSecurity (3.3.0), SkinsRestorer (15.5.2), WorldEdit (7.3.9+6959-7adf70b), voicechat (2.5.26)
-[13:07:20] [ServerMain/WARN]: resource-pack-id missing, using default of 24696f4d-dc48-3d38-9515-c73880600e81
-[13:07:20] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:07:24] [ServerMain/INFO]: Loaded 1319 recipes
-[13:07:24] [ServerMain/ERROR]: Failed to load function witherking:abilities/laserbeam/main_tick
+[14:43:21] [ServerMain/WARN]: resource-pack-id missing, using default of 24696f4d-dc48-3d38-9515-c73880600e81
+[14:43:21] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:43:26] [ServerMain/INFO]: Loaded 1319 recipes
+[14:43:26] [ServerMain/ERROR]: Failed to load function witherking:abilities/laserbeam/main_tick
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 9: Incorrect argument for command at position 46: ... ..80 run <--[HERE]
 	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -22,459 +20,151 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 9:
 	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$2(ServerFunctionLibrary.java:97) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
 	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 3 more
-[13:07:24] [ServerMain/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
-[13:07:24] [ServerMain/INFO]: Loaded 1697 advancements
-[13:07:25] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[13:07:25] [Server thread/INFO]: Loading properties
-[13:07:25] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[13:07:25] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[13:07:26] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[13:07:26] [Server thread/INFO]: Using 4 threads for Netty based IO
-[13:07:26] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[13:07:27] [Server thread/INFO]: Default game type: SURVIVAL
-[13:07:27] [Server thread/INFO]: Generating keypair
-[13:07:27] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:07:27] [Server thread/INFO]: Using epoll channel type
-[13:07:27] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[13:07:27] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[13:07:27] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.2
-[13:07:27] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v1.7.10.0
-[13:07:27] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.9+6959-7adf70b
-[13:07:31] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@46a5fc95]
-[13:07:31] [Server thread/INFO]: [WorldEdit] Default configuration file written: config.yml
-[13:07:31] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
-[13:07:31] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.26
-[13:07:31] [Server thread/INFO]: [BlockLocker] Loading server plugin BlockLocker v1.13
-[13:07:31] [Server thread/INFO]: [FastChunkPregenerator] Loading server plugin FastChunkPregenerator v2.0.9-SNAPSHOT
-[13:07:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[13:07:31] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.2
-[13:07:32] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[13:07:33] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
-[13:07:34] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[13:07:34] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
-[13:07:34] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[13:07:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[13:07:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[13:07:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[13:07:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[13:07:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[13:07:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[13:07:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[13:07:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.2
-[13:07:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: ae257f6
-[13:07:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[13:07:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[13:07:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[13:07:34] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[13:07:34] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[13:07:35] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
-[13:07:36] [Server thread/INFO]: [BlockLocker] Enabling BlockLocker v1.13
-[13:07:36] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[13:07:43] [Server thread/WARN]: [BlockLocker] Cannot recognize material pale_oak_door, ignoring it
-[13:07:43] [Server thread/WARN]: [BlockLocker] Cannot recognize material pale_oak_fence_gate, ignoring it
-[13:07:43] [Server thread/WARN]: [BlockLocker] Cannot recognize material pale_oak_trapdoor, ignoring it
-[13:07:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:07:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:07:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:07:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:07:43] [Server thread/INFO]: Preparing level "world"
-[13:07:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:07:46] [Server thread/INFO]: Time elapsed: 1521 ms
-[13:07:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[13:07:46] [Server thread/INFO]: Time elapsed: 228 ms
-[13:07:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[13:07:47] [Server thread/INFO]: Time elapsed: 178 ms
-[13:07:47] [Server thread/INFO]: Preparing start region for dimension cavernous:the_myst
-[13:07:47] [Server thread/INFO]: Time elapsed: 458 ms
-[13:07:47] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v1.7.10.0
-[13:07:48] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
-[13:07:48] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
-[13:07:48] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[13:07:48] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[13:07:48] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[13:07:48] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[13:07:48] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
-[13:07:48] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.26
-[13:07:48] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.21.1-R0.1
-[13:07:48] [Server thread/INFO]: [voicechat] Compatibility version 18
-[13:07:49] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[13:07:49] [Server thread/INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.9-SNAPSHOT
-[13:07:49] [Server thread/INFO]: [FastChunkPregenerator] >> Paper was found.
-[13:07:49] [Server thread/INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
-[13:07:49] [Server thread/INFO]: [spark] Starting background profiler...
-[13:07:50] [Server thread/INFO]: Done preparing level "world" (6.344s)
-[13:07:50] [Server thread/INFO]: Running delayed init tasks
-[13:07:50] [Server thread/INFO]: Done (39.651s)! For help, type "help"
-[13:07:50] [Server thread/INFO]: Timings Reset
-[13:07:50] [Server thread/INFO]: [voicechat] Loading plugins
-[13:07:50] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
-[13:07:50] [Server thread/INFO]: [voicechat] Initializing plugins
-[13:07:50] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
-[13:07:50] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[13:07:50] [VoiceChatServerThread/ERROR]: [voicechat] Failed to bind to address '100.82.190.47', binding to wildcard IP instead
-[13:07:50] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 100.82.190.47:24454
-[13:07:51] [Craft Scheduler Thread - 0 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 1 ImageMaps!
-[13:08:24] [User Authenticator #0/INFO]: UUID of player qSeren is 60f425a3-b4ca-31c1-a532-8475c0b676c0
-[13:08:26] [Server thread/INFO]: qSeren joined the game
-[13:08:26] [Server thread/INFO]: qSeren[/100.116.28.5:60805] logged in with entity id 33 at ([world_nether]3.9698246149768566, 42.0, 23.03234311681529)
-[13:08:26] [Server thread/INFO]: [voicechat] Received secret request of qSeren (18)
-[13:08:26] [Server thread/INFO]: [voicechat] Sent secret to qSeren
-[13:08:27] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 60f425a3-b4ca-31c1-a532-8475c0b676c0
-[13:08:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 60f425a3-b4ca-31c1-a532-8475c0b676c0
-[13:08:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player qSeren (60f425a3-b4ca-31c1-a532-8475c0b676c0) successfully connected to voice chat
-[13:08:37] [User Authenticator #0/INFO]: UUID of player TeeRobZti is 375e8eef-1b7d-320f-92ce-8498cff3acd8
-[13:09:00] [Server thread/INFO]: TeeRobZti joined the game
-[13:09:00] [Server thread/INFO]: TeeRobZti[/100.99.46.3:50875] logged in with entity id 59 at ([world]1890.300000011921, 87.0, -346.30000001192093)
-[13:09:01] [Server thread/INFO]: [voicechat] Received secret request of TeeRobZti (18)
-[13:09:01] [Server thread/INFO]: [voicechat] Sent secret to TeeRobZti
-[13:09:02] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 375e8eef-1b7d-320f-92ce-8498cff3acd8
-[13:09:03] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 375e8eef-1b7d-320f-92ce-8498cff3acd8
-[13:09:03] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player TeeRobZti (375e8eef-1b7d-320f-92ce-8498cff3acd8) successfully connected to voice chat
-[13:09:32] [Server thread/INFO]: qSeren issued server command: /op TeeRobZti
-[13:09:32] [Server thread/INFO]: [qSeren: Made TeeRobZti a server operator]
-[13:09:36] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
-[13:09:36] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
-[13:10:26] [Server thread/INFO]: TeeRobZti issued server command: /tp qSeren
-[13:10:26] [Server thread/INFO]: [TeeRobZti: Teleported TeeRobZti to qSeren]
-[13:11:21] [Server thread/INFO]: qSeren issued server command: //replace blackstone,polished_blackstone,polished_blackstone_bricks,cracked_polished_blackstone_bricks sponge
-[13:11:30] [Server thread/INFO]: TeeRobZti issued server command: /tp qSeren
-[13:11:30] [Server thread/INFO]: [TeeRobZti: Teleported TeeRobZti to qSeren]
-[13:12:23] [Server thread/INFO]: qSeren issued server command: //set sponge
-[13:13:03] [Server thread/INFO]: qSeren issued server command: /loot give @a loot stellarity:items/trinkets/endermans_hand
-[13:14:01] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:14:09] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:14:18] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:14:43] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:14:51] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:14:59] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:13] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:13] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:14] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:14] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:15] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:15] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:16] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:16] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:16] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:17] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:17] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:17] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:17] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:18] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:18] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:18] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:18] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:19] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:20] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:20] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:21] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:21] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:21] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:21] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:22] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:22] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:22] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:22] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:22] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:23] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:23] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:23] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:23] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:24] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:24] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:24] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:24] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:25] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:25] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:26] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:26] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:26] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:26] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:27] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:27] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:27] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:27] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:28] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:28] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:28] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:28] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:29] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:29] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:29] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:29] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:15:58] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:16:14] [Server thread/INFO]: qSeren issued server command: //replace lava air
-[13:16:25] [Server thread/INFO]: TeeRobZti issued server command: /gamemode survival
-[13:16:25] [Server thread/INFO]: [TeeRobZti: Set own game mode to Survival Mode]
-[13:16:26] [Server thread/INFO]: TeeRobZti issued server command: /gamemode spectator
-[13:16:26] [Server thread/INFO]: [TeeRobZti: Set own game mode to Spectator Mode]
-[13:16:29] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
-[13:16:29] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
-[13:21:34] [Server thread/INFO]: qSeren issued server command: //replace dried_kelp_block 25%blackstone_wall,25%polished_blackstone_wall,25%polished_blackstone_brick_wall
-[13:21:57] [Server thread/INFO]: qSeren issued server command: //replace sponge blackstone,polished_blackstone,polished_blackstone_bricks,cracked_polished_blackstone_bricks
-[13:22:11] [Server thread/INFO]: qSeren issued server command: //undo
-[13:22:13] [Server thread/INFO]: qSeren issued server command: //undo
-[13:23:21] [Server thread/INFO]: qSeren issued server command: /effect give @a minecraft:night_vision infinite
-[13:23:21] [Server thread/INFO]: [qSeren: Applied effect Night Vision to 2 targets]
-[13:23:34] [Server thread/INFO]: qSeren issued server command: //replace dried_kelp_block 25%blackstone_wall,25%polished_blackstone_wall,25%polished_blackstone_brick_wall
-[13:24:02] [Server thread/INFO]: qSeren issued server command: //replace sponge blackstone,polished_blackstone,polished_blackstone_bricks,cracked_polished_blackstone_bricks
-[13:24:13] [Server thread/INFO]: qSeren issued server command: //undo
-[13:24:14] [Server thread/INFO]: qSeren issued server command: //undo
-[13:24:24] [Server thread/INFO]: qSeren issued server command: //replace dried_kelp_block nether_brick_wall
-[13:24:26] [Server thread/INFO]: qSeren issued server command: //replace sponge blackstone,polished_blackstone,polished_blackstone_bricks,cracked_polished_blackstone_bricks
-[13:24:31] [Server thread/INFO]: qSeren issued server command: //undo
-[13:24:32] [Server thread/INFO]: qSeren issued server command: //undo
-[13:24:45] [Server thread/INFO]: qSeren issued server command: //replace dried_kelp_block 50%nether_brick_wall,red_nether_brick_wall
-[13:24:53] [Server thread/INFO]: qSeren issued server command: //undo
-[13:24:59] [Server thread/INFO]: qSeren issued server command: //replace dried_kelp_block 50%nether_brick_wall,50%red_nether_brick_wall
-[13:25:04] [Server thread/INFO]: qSeren issued server command: //replace sponge blackstone,polished_blackstone,polished_blackstone_bricks,cracked_polished_blackstone_bricks
-[13:25:10] [Server thread/INFO]: qSeren issued server command: //undo
-[13:25:12] [Server thread/INFO]: qSeren issued server command: //undo
-[13:25:18] [Server thread/INFO]: qSeren issued server command: //replace dried_kelp_block red_nether_brick_wall
-[13:25:22] [Server thread/INFO]: qSeren issued server command: //replace sponge blackstone,polished_blackstone,polished_blackstone_bricks,cracked_polished_blackstone_bricks
-[13:26:38] [Server thread/INFO]: qSeren issued server command: //set air
-[13:26:56] [Server thread/INFO]: TeeRobZti issued server command: /brush dilate
-[13:26:57] [Server thread/INFO]: qSeren issued server command: //set air
-[13:27:19] [Server thread/INFO]: TeeRobZti issued server command: /brush erode
-[13:27:39] [Server thread/INFO]: qSeren issued server command: //set air
-[13:27:50] [Server thread/INFO]: qSeren issued server command: //set air
-[13:28:23] [Server thread/INFO]: qSeren issued server command: //set lava
-[13:28:23] [Server thread/INFO]: TeeRobZti issued server command: /gamemode spectator
-[13:28:23] [Server thread/INFO]: [TeeRobZti: Set own game mode to Spectator Mode]
-[13:28:28] [Server thread/INFO]: TeeRobZti has made the advancement [Delving in]
-[13:28:33] [Server thread/INFO]: qSeren issued server command: //set lava
-[13:28:48] [Server thread/INFO]: TeeRobZti issued server command: /tp qSeren
-[13:28:48] [Server thread/INFO]: [TeeRobZti: Teleported TeeRobZti to qSeren]
-[13:28:50] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
-[13:28:50] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
-[13:29:05] [Server thread/INFO]: TeeRobZti issued server command: /tp qSeren
-[13:29:05] [Server thread/INFO]: [TeeRobZti: Teleported TeeRobZti to qSeren]
-[13:29:32] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
-[13:31:00] [Server thread/INFO]: TeeRobZti issued server command: //undo
-[13:31:02] [Server thread/INFO]: TeeRobZti issued server command: //undo
-[13:31:28] [Server thread/INFO]: qSeren issued server command: /weather clear
-[13:31:28] [Server thread/INFO]: [qSeren: Set the weather to clear]
-[13:31:43] [Server thread/INFO]: TeeRobZti issued server command: //undo
-[13:31:48] [Server thread/INFO]: qSeren issued server command: //set blackstone_stairs
-[13:31:56] [Server thread/INFO]: qSeren issued server command: //set blackstone_stairs facing=up
-[13:32:00] [Server thread/INFO]: qSeren issued server command: //set blackstone_stairs
-[13:32:04] [Server thread/INFO]: qSeren issued server command: //undo
-[13:32:07] [Server thread/INFO]: qSeren issued server command: //undo
-[13:32:24] [Server thread/INFO]: TeeRobZti issued server command: /gamemode spectator
-[13:32:24] [Server thread/INFO]: [TeeRobZti: Set own game mode to Spectator Mode]
-[13:32:27] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
-[13:32:27] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
-[13:32:52] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
-[13:33:06] [Server thread/INFO]: TeeRobZti issued server command: //undo
-[13:33:09] [Server thread/INFO]: TeeRobZti issued server command: //undo
-[13:33:13] [Server thread/INFO]: TeeRobZti issued server command: //undo
-[13:33:13] [Server thread/INFO]: TeeRobZti issued server command: //undo
-[13:33:14] [Server thread/INFO]: TeeRobZti issued server command: //undo
-[13:33:15] [Server thread/INFO]: TeeRobZti issued server command: //undo
-[13:33:15] [Server thread/INFO]: TeeRobZti issued server command: //undo
-[13:33:26] [Server thread/INFO]: TeeRobZti issued server command: /undo
-[13:33:27] [Server thread/INFO]: TeeRobZti issued server command: /undo
-[13:34:15] [Server thread/INFO]: TeeRobZti issued server command: //undo
-[13:35:48] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
-[13:35:57] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
-[13:37:01] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
-[13:37:05] [Server thread/INFO]: qSeren issued server command: //undo
-[13:37:08] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
-[13:37:45] [Server thread/INFO]: qSeren issued server command: //copy
-[13:38:08] [Server thread/INFO]: qSeren issued server command: //paste
-[13:38:11] [Server thread/INFO]: qSeren issued server command: //undo
-[13:38:15] [Server thread/INFO]: qSeren issued server command: //rotate 180
-[13:38:18] [Server thread/INFO]: qSeren issued server command: //paste -a
-[13:38:52] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
-[13:39:05] [Server thread/INFO]: qSeren issued server command: //undo
-[13:39:06] [Server thread/INFO]: qSeren issued server command: //undo
-[13:39:07] [Server thread/INFO]: qSeren issued server command: //undo
-[13:39:15] [Server thread/INFO]: qSeren issued server command: //paste -a
-[13:39:17] [Server thread/INFO]: qSeren issued server command: //undo
-[13:39:20] [Server thread/INFO]: qSeren issued server command: //rotate 180
-[13:39:21] [Server thread/INFO]: qSeren issued server command: //paste -a
-[13:39:26] [Server thread/INFO]: qSeren issued server command: //undo
-[13:39:46] [Server thread/INFO]: qSeren issued server command: //paste -a
-[13:39:52] [Server thread/INFO]: qSeren issued server command: //undo
-[13:39:54] [Server thread/INFO]: qSeren issued server command: //rotate 180
-[13:39:55] [Server thread/INFO]: qSeren issued server command: //paste -a
-[13:40:05] [Server thread/INFO]: qSeren issued server command: //brush erode 3
-[13:40:39] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
-[13:40:41] [Server thread/INFO]: TeeRobZti issued server command: //undo
-[13:41:08] [Server thread/INFO]: TeeRobZti issued server command: /gamemode spectator
-[13:41:08] [Server thread/INFO]: [TeeRobZti: Set own game mode to Spectator Mode]
-[13:41:11] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
-[13:41:11] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
-[13:41:13] [Server thread/INFO]: qSeren issued server command: //paste -a
-[13:41:17] [Server thread/INFO]: qSeren issued server command: //undo
-[13:41:23] [Server thread/INFO]: qSeren issued server command: //rotate 180
-[13:41:29] [Server thread/INFO]: qSeren issued server command: //paste -a
-[13:41:41] [Server thread/INFO]: qSeren issued server command: //undo
-[13:41:49] [Server thread/INFO]: qSeren issued server command: //paste -a
-[13:42:04] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
-[13:43:36] [Server thread/INFO]: TeeRobZti issued server command: /tp qSeren
-[13:43:36] [Server thread/INFO]: [TeeRobZti: Teleported TeeRobZti to qSeren]
-[13:44:17] [Server thread/INFO]: TeeRobZti issued server command: //undo
-[13:44:51] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
-[13:51:54] [Server thread/INFO]: TeeRobZti issued server command: //undo
-[13:52:37] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
-[13:54:06] [Server thread/INFO]: TeeRobZti issued server command: //undo
-[13:54:46] [Server thread/INFO]: TeeRobZti issued server command: //undo
-[13:56:01] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
-[13:56:16] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
-[13:58:23] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
-[13:58:27] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
-[13:58:51] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
-[14:01:03] [Server thread/INFO]: qSeren issued server command: //copy
-[14:01:11] [Server thread/INFO]: qSeren issued server command: //paste
-[14:01:24] [Server thread/INFO]: qSeren issued server command: //set air
-[14:01:41] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
-[14:01:48] [Server thread/INFO]: qSeren issued server command: //undo
-[14:01:56] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
-[14:03:04] [Server thread/INFO]: TeeRobZti issued server command: /tp qSeren
-[14:03:04] [Server thread/INFO]: [TeeRobZti: Teleported TeeRobZti to qSeren]
-[14:04:26] [Server thread/INFO]: TeeRobZti issued server command: /tp qs
-[14:04:28] [Server thread/INFO]: TeeRobZti issued server command: /tp qSeren
-[14:04:28] [Server thread/INFO]: [TeeRobZti: Teleported TeeRobZti to qSeren]
-[14:06:20] [Server thread/INFO]: qSeren issued server command: /tp 8 50 21
-[14:06:20] [Server thread/INFO]: [qSeren: Teleported qSeren to 8.500000, 50.000000, 21.500000]
-[14:06:52] [Server thread/INFO]: qSeren issued server command: //copy
-[14:06:58] [Server thread/INFO]: qSeren issued server command: //set air
-[14:07:03] [Server thread/INFO]: qSeren issued server command: //undo
-[14:07:22] [Server thread/INFO]: qSeren issued server command: //rotate 90 90
-[14:07:25] [Server thread/INFO]: qSeren issued server command: //paste a
-[14:07:30] [Server thread/INFO]: qSeren issued server command: //paste -a
-[14:07:38] [Server thread/INFO]: qSeren issued server command: //rotate 90 45
-[14:07:41] [Server thread/INFO]: qSeren issued server command: //undo
-[14:07:44] [Server thread/INFO]: qSeren issued server command: //paste -a
-[14:07:50] [Server thread/INFO]: qSeren issued server command: //rotate 90 45
-[14:07:51] [Server thread/INFO]: qSeren issued server command: //rotate 90 45
-[14:07:52] [Server thread/INFO]: qSeren issued server command: //rotate 90 45
-[14:07:53] [Server thread/INFO]: qSeren issued server command: //rotate 90 45
-[14:07:53] [Server thread/INFO]: qSeren issued server command: //rotate 90 45
-[14:07:54] [Server thread/INFO]: qSeren issued server command: //rotate 90 45
-[14:07:56] [Server thread/INFO]: qSeren issued server command: //undo
-[14:07:57] [Server thread/INFO]: qSeren issued server command: //paste -a
-[14:08:05] [Server thread/INFO]: qSeren issued server command: //undo
-[14:08:10] [Server thread/INFO]: qSeren issued server command: //paste -a
-[14:08:13] [Server thread/INFO]: qSeren issued server command: //undo
-[14:08:18] [Server thread/INFO]: qSeren issued server command: //rotate 90 -45
-[14:08:20] [Server thread/INFO]: qSeren issued server command: //paste -a
-[14:08:26] [Server thread/INFO]: qSeren issued server command: //undo
-[14:08:36] [Server thread/INFO]: qSeren issued server command: //paste -a
-[14:08:51] [Server thread/INFO]: qSeren issued server command: //undo
-[14:09:16] [Server thread/INFO]: qSeren issued server command: //copy
-[14:09:19] [Server thread/INFO]: qSeren issued server command: //paste
-[14:09:23] [Server thread/INFO]: qSeren issued server command: //undo
-[14:09:30] [Server thread/INFO]: qSeren issued server command: //rotate 0 90
-[14:09:31] [Server thread/INFO]: qSeren issued server command: //paste
-[14:09:35] [Server thread/INFO]: qSeren issued server command: //undo
-[14:09:38] [Server thread/INFO]: qSeren issued server command: //rotate 0 45
-[14:09:39] [Server thread/INFO]: qSeren issued server command: //paste
-[14:09:48] [Server thread/INFO]: qSeren issued server command: //rotate 0 -45
-[14:09:49] [Server thread/INFO]: qSeren issued server command: //undo
-[14:09:51] [Server thread/INFO]: qSeren issued server command: //paste
-[14:09:54] [Server thread/INFO]: qSeren issued server command: //undo
-[14:10:05] [Server thread/INFO]: qSeren issued server command: //rotate 45
-[14:10:06] [Server thread/INFO]: qSeren issued server command: //paste
-[14:10:12] [Server thread/INFO]: qSeren issued server command: //undo
-[14:10:19] [Server thread/INFO]: qSeren issued server command: //rotate -45 0 45
-[14:10:20] [Server thread/INFO]: qSeren issued server command: //paste
-[14:10:39] [Server thread/INFO]: qSeren issued server command: //undo
-[14:10:46] [Server thread/INFO]: qSeren issued server command: //rotate 20 0 45
-[14:10:47] [Server thread/INFO]: qSeren issued server command: //paste
-[14:10:56] [Server thread/INFO]: qSeren issued server command: //undo
-[14:11:00] [Server thread/INFO]: qSeren issued server command: //rotate 20 0 -45
-[14:11:03] [Server thread/INFO]: qSeren issued server command: //rotate 20 0 45
-[14:11:05] [Server thread/INFO]: qSeren issued server command: //paste
-[14:11:08] [Server thread/INFO]: qSeren issued server command: //undo
-[14:11:14] [Server thread/INFO]: qSeren issued server command: //paste
-[14:11:59] [Server thread/INFO]: TeeRobZti issued server command: /brush erode
-[14:12:09] [Server thread/INFO]: TeeRobZti issued server command: //undo
-[14:14:20] [Server thread/INFO]: TeeRobZti issued server command: /tp qSeren TeeRobZti
-[14:14:20] [Server thread/INFO]: [TeeRobZti: Teleported qSeren to TeeRobZti]
-[14:15:59] [Server thread/INFO]: TeeRobZti issued server command: //undo
-[14:16:25] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
-[14:16:31] [Server thread/INFO]: qSeren issued server command: //undo
-[14:16:40] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
-[14:16:45] [Server thread/INFO]: qSeren issued server command: //undo
-[14:16:54] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
-[14:17:06] [Server thread/INFO]: TeeRobZti issued server command: //undo
-[14:17:55] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
-[14:18:15] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
-[14:19:43] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
-[14:20:28] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
-[14:25:38] [Server thread/INFO]: TeeRobZti issued server command: /tp qSeren
-[14:25:38] [Server thread/INFO]: [TeeRobZti: Teleported TeeRobZti to qSeren]
-[14:26:36] [Async Chat Thread - #0/INFO]: [Not Secure] <TeeRobZti> trabado total
-[14:26:38] [Server thread/INFO]: qSeren issued server command: /give qSeren minecraft:command_block
-[14:26:38] [Server thread/INFO]: [qSeren: Gave 1 [Command Block] to qSeren]
-[14:26:39] [Async Chat Thread - #0/INFO]: [Not Secure] <TeeRobZti> ultra momo
-[14:27:14] [Async Chat Thread - #1/INFO]: [Not Secure] <TeeRobZti> TRABADISIMOOOOOOOOOOOOOOOOOOOOOOOOOOL
-[14:29:01] [Async Chat Thread - #2/INFO]: [Not Secure] <TeeRobZti> pq tan callado bro
-[14:29:19] [Server thread/INFO]: qSeren issued server command: /gamemode creative
-[14:30:04] [Async Chat Thread - #4/INFO]: [Not Secure] <TeeRobZti> TIO
-[14:30:07] [Async Chat Thread - #4/INFO]: [Not Secure] <TeeRobZti> PORQUE SE TE TRABA
-[14:30:08] [Async Chat Thread - #4/INFO]: [Not Secure] <TeeRobZti> XDDDDD
-[14:32:31] [Async Chat Thread - #6/INFO]: [Not Secure] <qSeren> imgur.com
-[14:32:47] [Async Chat Thread - #6/INFO]: [Not Secure] <TeeRobZti> trabado
-[14:33:37] [Server thread/INFO]: qSeren issued server command: /imageframe create momo https://i.imgur.com/f0Jymz1.jpeg 3 3
-[14:34:38] [Server thread/INFO]: Unknown or incomplete command, see below for error
-/give @p minecraft:light_gray_banner[banner_patterns=[{"pattern":"stripe_center","color":"black"},{"pattern":"border","color":"light_gray"},{"pattern":"half_horizontal","color":"light_gray"},{"pattern":"gradient","color":"white"},{"pattern":"skull","color":"black"},{"pattern":"creeper","color":"black"}]] 1<--[HERE]
-[14:35:05] [Server thread/INFO]: Unknown or incomplete command, see below for error
-/give @a minecraft:light_gray_banner[banner_patterns=[{"pattern":"stripe_center","color":"black"},{"pattern":"border","color":"light_gray"},{"pattern":"half_horizontal","color":"light_gray"},{"pattern":"gradient","color":"white"},{"pattern":"skull","color":"black"},{"pattern":"creeper","color":"black"}]] 1<--[HERE]
-[14:35:09] [Server thread/INFO]: Unknown or incomplete command, see below for error
-/give @p minecraft:light_gray_banner[banner_patterns=[{"pattern":"stripe_center","color":"black"},{"pattern":"border","color":"light_gray"},{"pattern":"half_horizontal","color":"light_gray"},{"pattern":"gradient","color":"white"},{"pattern":"skull","color":"black"},{"pattern":"creeper","color":"black"}]]<--[HERE]
-[14:35:16] [Server thread/INFO]: Unknown or incomplete command, see below for error
-/give @p minecraft:light_gray_banner[banner_patterns=[{"pattern":"stripe_center","color":"black"},{"pattern":"border","color":"light_gray"},{"pattern":"half_horizontal","color":"light_gray"},{"pattern":"gradient","color":"white"},{"pattern":"skull","color":"black"},{"pattern":"creeper","color":"black"}]]<--[HERE]
-[14:35:38] [Async Chat Thread - #8/INFO]: [Not Secure] <TeeRobZti> tengo que iniciar sesion en la cagada esa?
-[14:35:43] [Async Chat Thread - #9/INFO]: [Not Secure] <TeeRobZti> XDDDDDD
-[14:35:48] [Async Chat Thread - #9/INFO]: [Not Secure] <TeeRobZti> me volteo y veo a un momo
-[14:36:11] [Async Chat Thread - #9/INFO]: [Not Secure] <TeeRobZti> para
-[14:36:11] [Async Chat Thread - #9/INFO]: [Not Secure] <TeeRobZti> afkl
-[14:39:20] [Async Chat Thread - #10/INFO]: [Not Secure] <TeeRobZti> hola
-[14:39:37] [Server thread/INFO]: qSeren issued server command: /stop
-[14:39:37] [Server thread/INFO]: [qSeren: Stopping the server]
-[14:39:37] [Server thread/INFO]: Stopping server
-[14:39:37] [Server thread/INFO]: [FastChunkPregenerator] Disabling FastChunkPregenerator v2.0.9-SNAPSHOT
-[14:39:37] [Server thread/INFO]: [BlockLocker] Disabling BlockLocker v1.13
-[14:39:37] [Server thread/INFO]: [voicechat] Disabling voicechat v2.5.26
-[14:39:37] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.3.0
-[14:39:37] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
-[14:39:37] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
-[14:39:37] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.9+6959-7adf70b
-[14:39:37] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[14:39:37] [Server thread/INFO]: [ImageFrame] Disabling ImageFrame v1.7.10.0
-[14:39:37] [Server thread/INFO]: [ImageFrame] ImageFrame has been Disabled!
-[14:39:37] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.5.2
-[14:39:37] [Server thread/INFO]: Saving players
-[14:39:37] [Server thread/INFO]: qSeren lost connection: Server closed
-[14:39:37] [Server thread/INFO]: qSeren left the game
-[14:39:37] [Server thread/INFO]: TeeRobZti lost connection: Server closed
-[14:39:37] [Server thread/INFO]: TeeRobZti left the game
-[14:39:38] [Server thread/INFO]: Saving worlds
-[14:39:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14:39:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[14:39:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[14:39:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[14:39:38] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 1 entity chunks, 0 poi chunks in world 'world' in 0.00s
-[14:39:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[14:39:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[14:39:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[14:39:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[14:39:38] [Server thread/INFO]: [ChunkHolderManager] Saved 482 block chunks, 29 entity chunks, 0 poi chunks in world 'world_nether' in 0.39s
-[14:39:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[14:39:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[14:39:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[14:39:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[14:39:38] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 6 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[14:39:38] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_cavernous_the_myst]'/cavernous:the_myst
-[14:39:38] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_cavernous_the_myst'
-[14:39:38] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_cavernous_the_myst'
-[14:39:38] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_cavernous_the_myst'
-[14:39:38] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_cavernous_the_myst' in 0.01s
-[14:39:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:39:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:39:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:39:38] [Server thread/INFO]: ThreadedAnvilChunkStorage (the_myst): All chunks are saved
-[14:39:38] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:43:26] [ServerMain/ERROR]: Couldn't load advancements: [minecraft:wander_add_map, minecraft:give_quest_trader_trade]
+[14:43:26] [ServerMain/INFO]: Loaded 1697 advancements
+[14:43:26] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[14:43:26] [Server thread/INFO]: Loading properties
+[14:43:26] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[14:43:27] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[14:43:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:43:27] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:43:28] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[14:43:28] [Server thread/INFO]: Default game type: SURVIVAL
+[14:43:28] [Server thread/INFO]: Generating keypair
+[14:43:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:43:28] [Server thread/INFO]: Using epoll channel type
+[14:43:28] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[14:43:28] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[14:43:28] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.5.2
+[14:43:28] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v1.7.10.0
+[14:43:28] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.9+6959-7adf70b
+[14:43:31] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@7563225c]
+[14:43:31] [Server thread/INFO]: [LoginSecurity] Loading server plugin LoginSecurity v3.3.0
+[14:43:31] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.5.26
+[14:43:31] [Server thread/INFO]: [BlockLocker] Loading server plugin BlockLocker v1.13
+[14:43:31] [Server thread/INFO]: [FastChunkPregenerator] Loading server plugin FastChunkPregenerator v2.0.9-SNAPSHOT
+[14:43:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:43:31] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.5.2
+[14:43:31] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[14:43:32] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[14:43:33] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[14:43:33] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.9+6959-7adf70b
+[14:43:33] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[14:43:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:43:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[14:43:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[14:43:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[14:43:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[14:43:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[14:43:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:43:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.5.2
+[14:43:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: ae257f6
+[14:43:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[14:43:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[14:43:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[14:43:33] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[14:43:33] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[14:43:34] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21.PaperweightAdapter as the Bukkit adapter
+[14:43:35] [Server thread/INFO]: [BlockLocker] Enabling BlockLocker v1.13
+[14:43:36] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[14:43:43] [Server thread/WARN]: [BlockLocker] Cannot recognize material pale_oak_door, ignoring it
+[14:43:43] [Server thread/WARN]: [BlockLocker] Cannot recognize material pale_oak_fence_gate, ignoring it
+[14:43:43] [Server thread/WARN]: [BlockLocker] Cannot recognize material pale_oak_trapdoor, ignoring it
+[14:43:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:43:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:43:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:43:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:43:43] [Server thread/INFO]: Preparing level "world"
+[14:43:44] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:43:45] [Server thread/INFO]: Time elapsed: 1016 ms
+[14:43:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:43:46] [Server thread/INFO]: Time elapsed: 231 ms
+[14:43:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:43:46] [Server thread/INFO]: Time elapsed: 138 ms
+[14:43:46] [Server thread/INFO]: Preparing start region for dimension cavernous:the_myst
+[14:43:46] [Server thread/INFO]: Time elapsed: 323 ms
+[14:43:46] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v1.7.10.0
+[14:43:47] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
+[14:43:47] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[14:43:47] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[14:43:47] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[14:43:47] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[14:43:47] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[14:43:47] [Server thread/INFO]: [LoginSecurity] Using 1.12+ map captcha renderer
+[14:43:47] [Server thread/INFO]: [voicechat] Enabling voicechat v2.5.26
+[14:43:47] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.21.1-R0.1
+[14:43:47] [Server thread/INFO]: [voicechat] Compatibility version 18
+[14:43:47] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[14:43:47] [Server thread/INFO]: [FastChunkPregenerator] Enabling FastChunkPregenerator v2.0.9-SNAPSHOT
+[14:43:47] [Server thread/INFO]: [FastChunkPregenerator] >> Paper was found.
+[14:43:47] [Server thread/INFO]: [FastChunkPregenerator] >> Async chunk loading support is enabled.
+[14:43:48] [Server thread/INFO]: [spark] Starting background profiler...
+[14:43:48] [Server thread/INFO]: Done preparing level "world" (4.888s)
+[14:43:48] [Server thread/INFO]: Running delayed init tasks
+[14:43:48] [Server thread/INFO]: Done (32.509s)! For help, type "help"
+[14:43:48] [Server thread/INFO]: Timings Reset
+[14:43:48] [Server thread/INFO]: [voicechat] Loading plugins
+[14:43:48] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[14:43:48] [Server thread/INFO]: [voicechat] Initializing plugins
+[14:43:48] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[14:43:48] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[14:43:48] [VoiceChatServerThread/ERROR]: [voicechat] Failed to bind to address '100.82.190.47', binding to wildcard IP instead
+[14:43:48] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 100.82.190.47:24454
+[14:43:49] [Craft Scheduler Thread - 3 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 2 ImageMaps!
+[14:43:49] [User Authenticator #0/INFO]: UUID of player TeeRobZti is 375e8eef-1b7d-320f-92ce-8498cff3acd8
+[14:43:49] [Server thread/INFO]: TeeRobZti (/100.99.46.3:51553) lost connection: Disconnected
+[14:45:03] [User Authenticator #1/INFO]: UUID of player qSeren is 60f425a3-b4ca-31c1-a532-8475c0b676c0
+[14:45:04] [Server thread/INFO]: qSeren joined the game
+[14:45:05] [Server thread/INFO]: qSeren[/100.116.28.5:52456] logged in with entity id 34 at ([world_nether]-0.31754161205164605, 43.037862255897906, -33.326331964761685)
+[14:45:05] [Server thread/INFO]: [voicechat] Received secret request of qSeren (18)
+[14:45:05] [Server thread/INFO]: [voicechat] Sent secret to qSeren
+[14:45:05] [User Authenticator #1/INFO]: UUID of player TeeRobZti is 375e8eef-1b7d-320f-92ce-8498cff3acd8
+[14:45:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 60f425a3-b4ca-31c1-a532-8475c0b676c0
+[14:45:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 60f425a3-b4ca-31c1-a532-8475c0b676c0
+[14:45:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player qSeren (60f425a3-b4ca-31c1-a532-8475c0b676c0) successfully connected to voice chat
+[14:45:33] [Server thread/INFO]: TeeRobZti joined the game
+[14:45:33] [Server thread/INFO]: TeeRobZti[/100.99.46.3:51652] logged in with entity id 61 at ([world_nether]-3.485759852595669, 44.37429331309656, -36.34857643645393)
+[14:45:33] [Server thread/INFO]: [voicechat] Received secret request of TeeRobZti (18)
+[14:45:33] [Server thread/INFO]: [voicechat] Sent secret to TeeRobZti
+[14:45:34] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 375e8eef-1b7d-320f-92ce-8498cff3acd8
+[14:45:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 375e8eef-1b7d-320f-92ce-8498cff3acd8
+[14:45:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player TeeRobZti (375e8eef-1b7d-320f-92ce-8498cff3acd8) successfully connected to voice chat
+[14:45:48] [Server thread/INFO]: [@: Gave 1 [Red Banner] to qSeren]
+[14:47:16] [Server thread/INFO]: [@: Gave 1 [Light Blue Banner] to qSeren]
+[14:47:28] [Server thread/INFO]: [@: Gave 1 [Light Blue Banner] to qSeren]
+[14:47:34] [Server thread/INFO]: [@: Gave 1 [Gray Banner] to qSeren]
+[14:48:51] [Server thread/INFO]: TeeRobZti issued server command: /gamemode survival
+[14:48:51] [Server thread/INFO]: [TeeRobZti: Set own game mode to Survival Mode]
+[14:48:59] [Server thread/INFO]: TeeRobZti issued server command: /tp 1800 -300
+[14:49:00] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
+[14:49:00] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
+[14:49:13] [Server thread/INFO]: TeeRobZti issued server command: /tp TeeRobZti 1800 30 -300
+[14:49:13] [Server thread/INFO]: [TeeRobZti: Teleported TeeRobZti to 1800.500000, 30.000000, -299.500000]
+[14:49:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2674ms or 53 ticks behind
+[14:49:20] [Server thread/INFO]: qSeren issued server command: /ban TeeRobZti
+[14:49:20] [Server thread/INFO]: [qSeren: Banned TeeRobZti: Banned by an operator.]
+[14:49:20] [Server thread/INFO]: TeeRobZti lost connection: You are banned from this server
+[14:49:20] [Server thread/INFO]: [voicechat] Disconnecting client TeeRobZti
+[14:49:20] [Server thread/INFO]: TeeRobZti left the game
+[14:49:22] [Server thread/INFO]: qSeren issued server command: /pardon-ip
+[14:49:24] [Server thread/INFO]: qSeren issued server command: /pardon TeeRobZti
+[14:49:24] [Server thread/INFO]: [qSeren: Unbanned TeeRobZti]
+[14:49:30] [User Authenticator #2/INFO]: UUID of player TeeRobZti is 375e8eef-1b7d-320f-92ce-8498cff3acd8
+[14:49:34] [Server thread/INFO]: qSeren issued server command: /tp teerobzti qseren
+[14:49:36] [Server thread/INFO]: TeeRobZti joined the game
+[14:49:36] [Server thread/INFO]: TeeRobZti[/100.99.46.3:51685] logged in with entity id 86 at ([world_nether]1800.5, 27.071806445708734, -299.5)
+[14:49:36] [Server thread/INFO]: [voicechat] Received secret request of TeeRobZti (18)
+[14:49:36] [Server thread/INFO]: [voicechat] Sent secret to TeeRobZti
+[14:49:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 375e8eef-1b7d-320f-92ce-8498cff3acd8
+[14:49:37] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 375e8eef-1b7d-320f-92ce-8498cff3acd8
+[14:49:37] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player TeeRobZti (375e8eef-1b7d-320f-92ce-8498cff3acd8) successfully connected to voice chat
+[14:49:38] [Server thread/INFO]: qSeren issued server command: /tp teerobzti qseren
+[14:49:38] [Server thread/INFO]: [qSeren: Teleported TeeRobZti to qSeren]
+[14:50:41] [Server thread/INFO]: TeeRobZti issued server command: /give @a minecraft:enderman_spawn_egg
+[14:50:41] [Server thread/INFO]: [TeeRobZti: Gave 1 [Enderman Spawn Egg] to 2]
+[14:50:59] [Async Chat Thread - #0/INFO]: [Not Secure] <TeeRobZti> momo
+[14:51:17] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[14:51:23] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[14:51:29] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[14:51:33] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[14:51:36] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks

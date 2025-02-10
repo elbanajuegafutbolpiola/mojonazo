@@ -3231,93 +3231,15 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
+  "minecraft:recipes/redstone/redstone_lamp": {
     "criteria": {
-      "log_spam_fixer": "2025-02-10 14:38:50 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-02-10 14:38:50 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-02-10 14:38:50 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2025-02-10 14:38:50 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-02-10 14:38:50 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-02-10 14:38:50 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-02-10 14:38:50 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2025-02-10 14:38:50 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2025-02-10 14:38:50 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2025-02-10 14:38:50 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-02-10 14:38:50 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2025-02-10 14:38:50 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
-    "criteria": {
-      "has_red_dye": "2025-02-10 14:36:23 +0000"
+      "has_glowstone": "2025-02-10 13:44:37 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+  "minecraft:recipes/combat/spectral_arrow": {
     "criteria": {
-      "has_wither_rose": "2025-02-10 13:57:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_red_carpet": {
-    "criteria": {
-      "has_needed_dye": "2025-02-10 14:36:23 +0000"
+      "has_glowstone": "2025-02-10 13:44:37 +0000"
     },
     "done": true
   },
@@ -3327,7 +3249,55 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-02-10 13:54:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2025-02-10 13:57:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_carpet": {
+    "criteria": {
+      "has_red_wool": "2025-02-10 14:03:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_banner": {
+    "criteria": {
+      "has_red_wool": "2025-02-10 14:03:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_bed": {
+    "criteria": {
+      "has_red_wool": "2025-02-10 14:03:14 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/dye_black_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-02-10 14:24:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-02-10 14:24:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_candle": {
+    "criteria": {
+      "has_black_dye": "2025-02-10 14:24:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_wool": {
     "criteria": {
       "has_needed_dye": "2025-02-10 14:24:11 +0000"
     },
@@ -3339,33 +3309,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/red_carpet": {
-    "criteria": {
-      "has_red_wool": "2025-02-10 14:03:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_red_bed": {
-    "criteria": {
-      "has_needed_dye": "2025-02-10 14:36:23 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_black_bed": {
-    "criteria": {
-      "has_needed_dye": "2025-02-10 14:24:11 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_gray_carpet": {
     "criteria": {
       "has_needed_dye": "2025-02-10 14:27:58 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/red_banner": {
+  "minecraft:recipes/building_blocks/dye_gray_wool": {
     "criteria": {
-      "has_red_wool": "2025-02-10 14:03:14 +0000"
+      "has_needed_dye": "2025-02-10 14:27:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_gray_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-02-10 14:27:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_red_dye": "2025-02-10 14:36:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-02-10 14:36:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-02-10 14:36:23 +0000"
     },
     "done": true
   },
@@ -3393,53 +3369,77 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/soul_campfire": {
+  "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "has_soul_sand": "2025-02-10 13:54:00 +0000"
+      "log_spam_fixer": "2025-02-10 14:49:51 +0000"
     },
-    "done": true
+    "done": false
   },
-  "minecraft:recipes/redstone/redstone_lamp": {
+  "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "has_glowstone": "2025-02-10 13:44:37 +0000"
+      "log_spam_fixer": "2025-02-10 14:49:51 +0000"
     },
-    "done": true
+    "done": false
   },
-  "minecraft:recipes/building_blocks/dye_gray_wool": {
+  "incendium:technical/feed_ghastling": {
     "criteria": {
-      "has_needed_dye": "2025-02-10 14:27:58 +0000"
+      "log_spam_fixer": "2025-02-10 14:49:51 +0000"
     },
-    "done": true
+    "done": false
   },
-  "minecraft:recipes/building_blocks/dye_gray_bed": {
+  "incendium:technical/on_player_hurt": {
     "criteria": {
-      "has_needed_dye": "2025-02-10 14:27:58 +0000"
+      "log_spam_fixer": "2025-02-10 14:49:51 +0000"
     },
-    "done": true
+    "done": false
   },
-  "minecraft:recipes/combat/spectral_arrow": {
+  "incendium:technical/firestorm": {
     "criteria": {
-      "has_glowstone": "2025-02-10 13:44:37 +0000"
+      "log_spam_fixer": "2025-02-10 14:49:51 +0000"
     },
-    "done": true
+    "done": false
   },
-  "minecraft:recipes/decorations/black_candle": {
+  "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "has_black_dye": "2025-02-10 14:24:11 +0000"
+      "log_spam_fixer": "2025-02-10 14:49:51 +0000"
     },
-    "done": true
+    "done": false
   },
-  "minecraft:recipes/building_blocks/dye_black_wool": {
+  "incendium:technical/give_ghastling": {
     "criteria": {
-      "has_needed_dye": "2025-02-10 14:24:11 +0000"
+      "log_spam_fixer": "2025-02-10 14:49:51 +0000"
     },
-    "done": true
+    "done": false
   },
-  "minecraft:recipes/decorations/red_bed": {
+  "incendium:technical/on_kill": {
     "criteria": {
-      "has_red_wool": "2025-02-10 14:03:14 +0000"
+      "log_spam_fixer": "2025-02-10 14:49:51 +0000"
     },
-    "done": true
+    "done": false
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2025-02-10 14:49:51 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2025-02-10 14:49:51 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-02-10 14:49:51 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2025-02-10 14:49:51 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3955
 }
