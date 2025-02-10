@@ -208,3 +208,12 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 9:
 [15:11:42] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
 [15:11:42] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
 [15:11:54] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[15:15:12] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[15:21:40] [Server thread/INFO]: qSeren issued server command: //set sponge
+[15:21:47] [Server thread/INFO]: qSeren issued server command: //set air
+[15:22:34] [Server thread/INFO]: qSeren issued server command: //set sponge
+[15:22:48] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[15:22:55] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[15:23:01] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[15:23:11] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[15:23:33] [Server thread/INFO]: qSeren issued server command: //set air
