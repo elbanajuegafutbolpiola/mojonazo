@@ -432,3 +432,4 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 9:
 [16:53:16] [Server thread/INFO]: [TeeRobZti: Set own game mode to Survival Mode]
 [16:53:17] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
 [16:53:17] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
+[16:59:37] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
