@@ -2630,73 +2630,73 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-02-10 16:38:51 +0000"
+      "log_spam_fixer": "2025-02-10 16:48:51 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-02-10 16:38:51 +0000"
+      "log_spam_fixer": "2025-02-10 16:48:51 +0000"
     },
     "done": false
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-02-10 16:38:51 +0000"
+      "log_spam_fixer": "2025-02-10 16:48:51 +0000"
     },
     "done": false
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-02-10 16:38:51 +0000"
+      "log_spam_fixer": "2025-02-10 16:48:51 +0000"
     },
     "done": false
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-02-10 16:38:51 +0000"
+      "log_spam_fixer": "2025-02-10 16:48:51 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-02-10 16:38:51 +0000"
+      "log_spam_fixer": "2025-02-10 16:48:51 +0000"
     },
     "done": false
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-02-10 16:38:51 +0000"
+      "log_spam_fixer": "2025-02-10 16:48:51 +0000"
     },
     "done": false
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-02-10 16:38:51 +0000"
+      "log_spam_fixer": "2025-02-10 16:48:51 +0000"
     },
     "done": false
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-02-10 16:38:51 +0000"
+      "log_spam_fixer": "2025-02-10 16:48:51 +0000"
     },
     "done": false
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-02-10 16:38:51 +0000"
+      "log_spam_fixer": "2025-02-10 16:48:51 +0000"
     },
     "done": false
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-02-10 16:38:51 +0000"
+      "log_spam_fixer": "2025-02-10 16:48:51 +0000"
     },
     "done": false
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-02-10 16:38:51 +0000"
+      "log_spam_fixer": "2025-02-10 16:48:51 +0000"
     },
     "done": false
   },
@@ -2766,6 +2766,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-02-10 16:43:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/lodestone": {
     "criteria": {
       "has_netherite_ingot": "2025-02-10 16:06:58 +0000"
@@ -2796,9 +2802,21 @@
     },
     "done": true
   },
+  "stellarity:story/cloud_save": {
+    "criteria": {
+      "requirement": "2025-02-10 16:39:53 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/netherite_axe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2025-02-10 16:06:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-02-10 16:43:53 +0000"
     },
     "done": true
   },
