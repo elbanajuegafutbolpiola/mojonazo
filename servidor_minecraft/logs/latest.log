@@ -315,3 +315,53 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 9:
 [15:58:33] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
 [15:58:33] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
 [16:02:37] [Server thread/INFO]: TeeRobZti has made the advancement [Cloud Save]
+[16:06:09] [Async Chat Thread - #3/INFO]: [Not Secure] <TeeRobZti> hola
+[16:07:10] [Server thread/INFO]: TeeRobZti issued server command: /advancement revoke TeeRobZti only minecraft:nether/obtain_ancient_debris
+[16:07:10] [Server thread/INFO]: [TeeRobZti: Revoked the advancement [Hidden in the Depths] from TeeRobZti]
+[16:08:07] [Server thread/INFO]: TeeRobZti issued server command: /brush dilate
+[16:08:36] [Server thread/INFO]: TeeRobZti issued server command: /undo
+[16:08:37] [Server thread/INFO]: TeeRobZti issued server command: /undo
+[16:08:51] [Server thread/INFO]: TeeRobZti issued server command: /gamemode spectator
+[16:08:51] [Server thread/INFO]: [TeeRobZti: Set own game mode to Spectator Mode]
+[16:08:55] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
+[16:08:55] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
+[16:09:00] [Server thread/INFO]: qSeren issued server command: /advancement revoke TeeRobZti only stellarity:story/cloud_save
+[16:09:00] [Server thread/INFO]: [qSeren: Revoked the advancement [Cloud Save] from TeeRobZti]
+[16:10:05] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[16:10:07] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[16:10:10] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[16:10:11] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[16:10:12] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[16:10:13] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[16:10:14] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[16:10:14] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[16:10:15] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[16:10:23] [Server thread/INFO]: TeeRobZti issued server command: /unbind
+[16:10:27] [Server thread/INFO]: TeeRobZti issued server command: /brush unbind
+[16:10:36] [Server thread/INFO]: TeeRobZti issued server command: //set 0
+[16:11:14] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[16:11:21] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[16:11:29] [Server thread/INFO]: TeeRobZti issued server command: /brush erode
+[16:11:40] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[16:11:41] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[16:11:42] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[16:11:43] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[16:11:43] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[16:11:44] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[16:11:44] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[16:11:45] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[16:11:46] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[16:11:46] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[16:11:47] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[16:11:48] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[16:11:48] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[16:11:49] [Server thread/INFO]: TeeRobZti issued server command: //undo
+[16:12:25] [Server thread/INFO]: TeeRobZti issued server command: /gamemode spectator
+[16:12:25] [Server thread/INFO]: [TeeRobZti: Set own game mode to Spectator Mode]
+[16:12:29] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
+[16:12:29] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
+[16:12:47] [Server thread/INFO]: qSeren issued server command: //set air
+[16:13:04] [Async Chat Thread - #5/INFO]: [Not Secure] <qSeren> ..//undo 100
+[16:13:14] [Server thread/INFO]: TeeRobZti issued server command: //undo 100
+[16:13:41] [Server thread/INFO]: qSeren issued server command: //set air
+[16:14:10] [Server thread/INFO]: qSeren issued server command: //set air
