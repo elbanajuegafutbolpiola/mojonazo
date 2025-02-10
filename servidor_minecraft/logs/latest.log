@@ -399,3 +399,15 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 9:
 [16:27:03] [Server thread/INFO]: qSeren left the game
 [16:29:40] [Server thread/INFO]: TeeRobZti issued server command: //wand
 [16:30:00] [Server thread/INFO]: TeeRobZti issued server command: //set sponge
+[16:34:22] [Async Chat Thread - #7/INFO]: [Not Secure] <TeeRobZti> adssdas
+[16:39:53] [Server thread/INFO]: TeeRobZti has made the advancement [Cloud Save]
+[16:44:12] [User Authenticator #3/INFO]: UUID of player qSeren is 60f425a3-b4ca-31c1-a532-8475c0b676c0
+[16:44:14] [Server thread/INFO]: qSeren joined the game
+[16:44:14] [Server thread/INFO]: qSeren[/100.116.28.5:55490] logged in with entity id 381 at ([world_nether]-17.389934824680807, 44.66153039291186, -6.855963901330653)
+[16:44:14] [Server thread/INFO]: [voicechat] Received secret request of qSeren (18)
+[16:44:14] [Server thread/INFO]: [voicechat] Sent secret to qSeren
+[16:44:15] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 60f425a3-b4ca-31c1-a532-8475c0b676c0
+[16:44:16] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 60f425a3-b4ca-31c1-a532-8475c0b676c0
+[16:44:16] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player qSeren (60f425a3-b4ca-31c1-a532-8475c0b676c0) successfully connected to voice chat
+[16:44:17] [Async Chat Thread - #9/INFO]: [Not Secure] <TeeRobZti> gordo
+[16:44:18] [Async Chat Thread - #10/INFO]: [Not Secure] <TeeRobZti> sereno
