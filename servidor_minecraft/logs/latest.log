@@ -186,3 +186,25 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 9:
 [15:01:01] [Server thread/INFO]: qSeren issued server command: //undo
 [15:01:05] [Server thread/INFO]: qSeren issued server command: //paste
 [15:01:17] [Server thread/INFO]: qSeren issued server command: //brush erode 4
+[15:06:47] [Server thread/INFO]: TeeRobZti issued server command: /tp qSeren
+[15:06:47] [Server thread/INFO]: [TeeRobZti: Teleported TeeRobZti to qSeren]
+[15:07:18] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[15:07:43] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[15:07:47] [Server thread/INFO]: TeeRobZti issued server command: /gamemode spectator
+[15:07:47] [Server thread/INFO]: [TeeRobZti: Set own game mode to Spectator Mode]
+[15:07:49] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
+[15:07:49] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
+[15:07:50] [Server thread/INFO]: TeeRobZti issued server command: /gamemode spectator
+[15:07:50] [Server thread/INFO]: [TeeRobZti: Set own game mode to Spectator Mode]
+[15:07:54] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
+[15:07:54] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
+[15:10:24] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[15:10:29] [Server thread/INFO]: TeeRobZti issued server command: /gamemode spectator
+[15:10:29] [Server thread/INFO]: [TeeRobZti: Set own game mode to Spectator Mode]
+[15:10:29] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[15:10:36] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[15:10:40] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[15:11:33] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[15:11:42] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
+[15:11:42] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
+[15:11:54] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
