@@ -365,3 +365,26 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 9:
 [16:13:14] [Server thread/INFO]: TeeRobZti issued server command: //undo 100
 [16:13:41] [Server thread/INFO]: qSeren issued server command: //set air
 [16:14:10] [Server thread/INFO]: qSeren issued server command: //set air
+[16:14:17] [Server thread/INFO]: qSeren issued server command: //set air
+[16:14:41] [Server thread/INFO]: TeeRobZti issued server command: /gamemode spectator
+[16:14:41] [Server thread/INFO]: [TeeRobZti: Set own game mode to Spectator Mode]
+[16:14:47] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
+[16:14:47] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
+[16:15:06] [Server thread/INFO]: TeeRobZti issued server command: /sit
+[16:15:09] [Server thread/INFO]: TeeRobZti issued server command: /size
+[16:17:01] [Server thread/INFO]: qSeren issued server command: //replace air lava
+[16:17:14] [Server thread/INFO]: qSeren issued server command: //set lava
+[16:19:59] [Server thread/INFO]: TeeRobZti issued server command: /tp qSeren
+[16:19:59] [Server thread/INFO]: [TeeRobZti: Teleported TeeRobZti to qSeren]
+[16:21:02] [Server thread/INFO]: TeeRobZti issued server command: /gamemode spectator
+[16:21:02] [Server thread/INFO]: [TeeRobZti: Set own game mode to Spectator Mode]
+[16:21:14] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
+[16:21:14] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
+[16:23:27] [Server thread/INFO]: TeeRobZti issued server command: /tp qSeren
+[16:23:27] [Server thread/INFO]: [TeeRobZti: Teleported TeeRobZti to qSeren]
+[16:23:34] [Server thread/INFO]: TeeRobZti issued server command: /gamemode spectator
+[16:23:34] [Server thread/INFO]: [TeeRobZti: Set own game mode to Spectator Mode]
+[16:23:49] [Server thread/INFO]: TeeRobZti issued server command: /gamemode survival
+[16:23:49] [Server thread/INFO]: [TeeRobZti: Set own game mode to Survival Mode]
+[16:23:50] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
+[16:23:50] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
