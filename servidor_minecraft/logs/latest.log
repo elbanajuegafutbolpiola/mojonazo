@@ -168,3 +168,21 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 9:
 [14:51:29] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
 [14:51:33] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
 [14:51:36] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[14:53:54] [Server thread/INFO]: qSeren issued server command: //set red_nether_bricks
+[14:53:59] [Server thread/INFO]: qSeren issued server command: //set red_nether_brick_wall
+[14:54:17] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[14:54:25] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[14:54:28] [Server thread/INFO]: qSeren issued server command: //set 25%blackstone,25%polished_blackstone,25%polished_blackstone_bricks,25%cracked_polished_blackstone_bricks
+[14:55:54] [Server thread/INFO]: TeeRobZti issued server command: /gamemode spectator
+[14:55:54] [Server thread/INFO]: [TeeRobZti: Set own game mode to Spectator Mode]
+[14:55:56] [Server thread/INFO]: TeeRobZti issued server command: /gamemode creative
+[14:55:56] [Server thread/INFO]: [TeeRobZti: Set own game mode to Creative Mode]
+[14:56:59] [Server thread/INFO]: qSeren issued server command: //replace sponge blackstone
+[14:58:59] [Server thread/INFO]: qSeren issued server command: //copy
+[15:00:03] [Server thread/INFO]: TeeRobZti issued server command: /tp qSeren
+[15:00:03] [Server thread/INFO]: [TeeRobZti: Teleported TeeRobZti to qSeren]
+[15:00:24] [Server thread/INFO]: qSeren issued server command: //copy
+[15:00:53] [Server thread/INFO]: qSeren issued server command: //paste
+[15:01:01] [Server thread/INFO]: qSeren issued server command: //undo
+[15:01:05] [Server thread/INFO]: qSeren issued server command: //paste
+[15:01:17] [Server thread/INFO]: qSeren issued server command: //brush erode 4
